@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className='flex items-center flex-col '>
                     <img src="/img/logo/nisa.webp" className=' w-40 md:w-52 dark:hidden' alt="" />
                     <img src="/img/logo/nisa_b.webp" className=' w-40 md:w-52 hidden dark:block' alt="" />
-                    <p className='max-w-md mt-4 text-center'>We nurture students to become lifelong learners, responsible global citizens, and compassionate individuals through a challenging and balanced curriculum in a safe and caring environment.</p>
+                    <p className='max-w-md mt-4 text-center'>Our mission is to facilitate student development through a challenging and balanced curriculum offering differentiated instruction.</p>
                 </div>
                 <div className='text-center'>
                     <h2 className='text-xl text-brand-dark dark:text-white font-bold '>More Information</h2>

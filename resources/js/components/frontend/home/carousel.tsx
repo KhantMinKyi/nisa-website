@@ -13,7 +13,7 @@ export default function FullScreenCarousel() {
         {
             id: 1,
             image: '/img/banner/banner_9.webp', // Replace with your image paths
-            title1: "MANDALAY INTERNATIONAL SCHOOL OF ACUMEN IS",
+            title1: "NAYPYITAW INTERNATIONAL SCHOOL OF ACUMEN IS",
             title2: " PROUD TO OFFER CAMBRIDGE IGCSE",
             title3: "Join our Community",
         },
@@ -72,11 +72,11 @@ export default function FullScreenCarousel() {
                                     </p>
 
                                     {/* Optional Button */}
-                                    <div className="pt-4">
+                                    {/* <div className="pt-4">
                                         <button className="rounded-full cursor-pointer bg-brand-core px-8 py-3 text-sm font-bold text-white hover:text-black transition hover:bg-brand">
                                             FIND OUT MORE
                                         </button>
-                                    </div>
+                                    </div> */}
 
                                 </div>
                             </div>

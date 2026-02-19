@@ -16,13 +16,50 @@ function Information() {
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >
                             <div className="orico-about-text">
-                                <span className="font-merriweather mb-1 inline-block text-xl font-normal text-brand-core underline">“MISA”</span>
+                                <span className="font-merriweather mb-1 inline-block text-xl font-normal text-brand-core underline">“NISA”</span>
                                 <h2 className="font-merriweather mb-5 text-3xl font-bold sm:text-4xl lg:text-6xl dark:text-yellow-400">School History </h2>
-                                <p className="mb-5 text-justify sm:text-left">
-                                    Mandalay International School of Acumen is a comprehensive Kg to 12 private international school, in primary and high school campuses; the high school enrolling up to 400 students in grades 6–12 (Year 7-13). The school opened in 2004 and graduated its first senior class in 2009. Mandalay International School of Acumen is registered at the Cambridge Assessment International Education as Cambridge International school, holds membership in the College Board and is recognized by the UCAS.
+                                <div className="col-span-6 flex flex-col justify-center p-4">
+                                    {/* Header Intro */}
+                                    <h2 className="text-2xl font-bold dark:text-white text-slate-900 mb-4 leading-tight">
+                                        World-Class International Education
+                                    </h2>
 
-                                    {' '}
-                                </p>
+                                    <p className="dark:text-white text-slate-600 mb-6 leading-relaxed text-justify sm:text-left">
+                                        Nay Pyi Taw International School of Acumen (NISA) is proud to provide a world-class international education from nursery to IGCSE level.
+                                    </p>
+
+                                    {/* Simple List Design */}
+                                    <ul className="space-y-6">
+                                        {/* Purpose-Built Campus */}
+                                        <li className="relative pl-6">
+                                            <span className="absolute left-0 top-1.5 h-3 w-3 rounded-full bg-secondary-brand dark:bg-brand-core"></span>
+                                            <h4 className="font-bold dark:text-white text-slate-800 uppercase tracking-wide text-sm mb-1">
+                                                Purpose-Built Campus
+                                            </h4>
+                                            <p className="dark:text-white text-slate-600 text-sm leading-relaxed">
+                                                Established in 2014, our main campus in Ottara Thiri Myo Thit offers a spacious,
+                                                state-of-the-art environment designed for academic excellence.
+                                            </p>
+                                        </li>
+
+                                        {/* Two Campuses */}
+                                        <li className="relative pl-6">
+                                            <span className="absolute left-0 top-1.5 h-3 w-3 rounded-full bg-secondary-brand dark:bg-brand-core"></span>
+                                            <h4 className="font-bold dark:text-white text-slate-800 uppercase tracking-wide text-sm mb-1">
+                                                Two Dedicated Campuses
+                                            </h4>
+                                            <div className="space-y-2 dark:text-white text-slate-600 text-sm">
+                                                <p>• <strong className="dark:text-white text-slate-700">Main Campus:</strong> Serving Year 2 to Year 11.</p>
+                                                <p>• <strong className="dark:text-white text-slate-700">Preschool Campus:</strong> Opened 2022-23 for KG learners.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    {/* Simple Footer */}
+                                    <p className="mt-8 pt-4 border-t border-slate-100 dark:text-white text-slate-500 text-sm italic">
+                                        Nurturing young minds with a globally recognized Cambridge International curriculum.
+                                    </p>
+                                </div>
                                 <ul className="col:block mb-8 flex">
                                     <li className="relative inline-block py-1 pl-6 text-base font-semibold text-brand-core">
                                         <i className="absolute top-2 left-0">
