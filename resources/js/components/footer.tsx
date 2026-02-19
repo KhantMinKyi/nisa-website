@@ -9,8 +9,8 @@ const Footer = () => {
         <div className='w-full bg-brand-soft text-black dark:bg-brand-dark dark:text-white'>
             <div className='grid  md:grid-cols-3 py-10'>
                 <div className='flex items-center flex-col '>
-                    <img src="/img/logo/misa.webp" className=' w-40 md:w-52 dark:hidden' alt="" />
-                    <img src="/img/logo/misa_b.webp" className=' w-40 md:w-52 hidden dark:block' alt="" />
+                    <img src="/img/logo/nisa.webp" className=' w-40 md:w-52 dark:hidden' alt="" />
+                    <img src="/img/logo/nisa_b.webp" className=' w-40 md:w-52 hidden dark:block' alt="" />
                     <p className='max-w-md mt-4 text-center'>We nurture students to become lifelong learners, responsible global citizens, and compassionate individuals through a challenging and balanced curriculum in a safe and caring environment.</p>
                 </div>
                 <div className='text-center'>

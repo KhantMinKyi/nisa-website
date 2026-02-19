@@ -72,7 +72,7 @@ const TeachersPage = ({ images, categories, selectedCategoryId, showLink }: Teac
                             transition={{ duration: 0.5, ease: 'easeInOut' }}
                         >
                             <div className="relative z-10 flex flex-col items-center justify-center px-4 py-20 text-center md:py-40 lg:py-52">
-                                <img src="/img/logo/misa.webp" className="max-w-40" alt="" />
+                                <img src="/img/logo/nisa.webp" className="max-w-40" alt="" />
                                 <h2 className="font-merriweather mb-4 text-3xl font-bold md:text-5xl">Our Teachers</h2>
                             </div>
                         </motion.div>

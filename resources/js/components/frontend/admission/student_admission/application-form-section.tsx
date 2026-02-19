@@ -38,12 +38,12 @@ const ApplicationFormSection = () => {
                         >
                             <div className="mt-14 flex flex-col items-center justify-center gap-4 pl-0 md:pl-12">
                                 {/* <div>
-                                <img src="/img/logo/misa.webp" alt="" className="h-62 dark:hidden" />
-                                <img src="/img/logo/misa_b.webp" alt="" className="hidden h-62 dark:block" />
+                                <img src="/img/logo/nisa.webp" alt="" className="h-62 dark:hidden" />
+                                <img src="/img/logo/nisa_b.webp" alt="" className="hidden h-62 dark:block" />
                             </div> */}
                                 <div>
-                                    <img src="/img/logo/misa.webp" alt="" className="h-60 dark:hidden" />
-                                    <img src="/img/logo/misa_b.webp" alt="" className="hidden h-60 dark:block" />
+                                    <img src="/img/logo/nisa.webp" alt="" className="h-60 dark:hidden" />
+                                    <img src="/img/logo/nisa_b.webp" alt="" className="hidden h-60 dark:block" />
                                 </div>
 
                             </div>

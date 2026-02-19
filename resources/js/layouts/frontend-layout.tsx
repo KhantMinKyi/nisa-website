@@ -48,10 +48,10 @@ const FrontendLayout = ({ children }: { children: React.ReactNode }) => {
                 <div className='flex items-center justify-center flex-col md:flex-row gap-4 py-2'> {/* Added py-2 for spacing */}
                     <div className='flex flex-4/8'>
                         <Link href={'/'}>
-                            <img src='/img/logo/misa_tagline.png' className='w-sm dark:hidden' alt="" />
+                            <img src='/img/logo/nisa_tagline.png' className='w-sm dark:hidden' alt="" />
                         </Link>
                         <Link href={'/'}>
-                            <img src='/img/logo/misa_tagline_b.png' className='w-sm dark:block hidden' alt="" />
+                            <img src='/img/logo/nisa_tagline_b.png' className='w-sm dark:block hidden' alt="" />
                         </Link>
                     </div>
                     <div className='flex flex-3/8'>
@@ -74,8 +74,8 @@ const FrontendLayout = ({ children }: { children: React.ReactNode }) => {
             <div className='w-full text-sm p-4 hidden md:block lg:hidden '>
                 <div className='flex items-center justify-center gap-4 py-2'> {/* Added py-2 for spacing */}
                     <div className='flex '>
-                        <img src='/img/logo/misa_tagline.png' className='w-sm dark:hidden' alt="" />
-                        <img src='/img/logo/misa_tagline_b.png' className='w-sm dark:block hidden' alt="" />
+                        <img src='/img/logo/nisa_tagline.png' className='w-sm dark:hidden' alt="" />
+                        <img src='/img/logo/nisa_tagline_b.png' className='w-sm dark:block hidden' alt="" />
                     </div>
 
                 </div>
@@ -84,8 +84,8 @@ const FrontendLayout = ({ children }: { children: React.ReactNode }) => {
             <div className='w-full lg:hidden sticky top-0 z-50 bg-secondary-brand-dark text-white flex items-center justify-between px-4 py-3 shadow-lg'>
                 <div className='flex items-center'>
                     <Link href={'/'}>
-                        <img src='/img/logo/misa.webp' className='w-16 dark:hidden' alt="Logo" />
-                        <img src='/img/logo/misa_b.webp' className='w-16 dark:block hidden' alt="Logo" />
+                        <img src='/img/logo/nisa.webp' className='w-16 dark:hidden' alt="Logo" />
+                        <img src='/img/logo/nisa_b.webp' className='w-16 dark:block hidden' alt="Logo" />
                     </Link>
                 </div>
                 <button
@@ -111,8 +111,8 @@ const FrontendLayout = ({ children }: { children: React.ReactNode }) => {
                     {isScrolled && (
                         <div className='mr-8 flex-shrink-0'>
                             <Link href={'/'}>
-                                <img src='/img/logo/misa_tagline.png' className=' w-40 xl:w-84 dark:hidden' alt="Logo" />
-                                <img src='/img/logo/misa_tagline.png' className=' w-40 xl:w-84 dark:block hidden' alt="Logo" />
+                                <img src='/img/logo/nisa_tagline.png' className=' w-40 xl:w-84 dark:hidden' alt="Logo" />
+                                <img src='/img/logo/nisa_tagline.png' className=' w-40 xl:w-84 dark:block hidden' alt="Logo" />
                             </Link>
                         </div>
                     )}

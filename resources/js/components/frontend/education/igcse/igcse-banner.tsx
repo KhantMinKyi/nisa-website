@@ -39,8 +39,8 @@ function IgcseBanner() {
                     >
                         <div className="mt-14 flex flex-col items-center justify-center gap-4 pl-0 md:pl-12">
                             {/* <div>
-                                <img src="/img/logo/misa.webp" alt="" className="h-62 dark:hidden" />
-                                <img src="/img/logo/misa_b.webp" alt="" className="hidden h-62 dark:block" />
+                                <img src="/img/logo/nisa.webp" alt="" className="h-62 dark:hidden" />
+                                <img src="/img/logo/nisa_b.webp" alt="" className="hidden h-62 dark:block" />
                             </div> */}
                             <div>
                                 <img src="/img/logo/cambridge.webp" alt="" className="h-32 dark:hidden" />
@@ -57,7 +57,7 @@ function IgcseBanner() {
                         viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
                         transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                     >
-                        <img src="/img/logo/misa.webp" alt="" className="hidden w-60  opacity-10 sm:block" />
+                        <img src="/img/logo/nisa.webp" alt="" className="hidden w-60  opacity-10 sm:block" />
                     </motion.div>
                     <motion.div
                         className="absolute top-1/8 right-[40px] -z-10 -translate-y-1/8"
@@ -67,7 +67,7 @@ function IgcseBanner() {
                         viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
                         transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                     >
-                        <img src="/img/logo/misa.webp" alt="" className="hidden w-60  opacity-10 sm:block" />
+                        <img src="/img/logo/nisa.webp" alt="" className="hidden w-60  opacity-10 sm:block" />
                     </motion.div>
                     <motion.div
                         className="absolute top-8/8 left-[40px] -z-10 -translate-y-8/8"
@@ -77,7 +77,7 @@ function IgcseBanner() {
                         viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
                         transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                     >
-                        <img src="/img/logo/misa.webp" alt="" className="hidden w-60 opacity-10 sm:block" />
+                        <img src="/img/logo/nisa.webp" alt="" className="hidden w-60 opacity-10 sm:block" />
                     </motion.div>
                     <motion.div
                         className="absolute top-8/8 right-[40px] -z-10 -translate-y-8/8"
@@ -87,7 +87,7 @@ function IgcseBanner() {
                         viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
                         transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                     >
-                        <img src="/img/logo/misa.webp" alt="" className="hidden w-60  opacity-10 sm:block" />
+                        <img src="/img/logo/nisa.webp" alt="" className="hidden w-60  opacity-10 sm:block" />
                     </motion.div>
                 </div>
             </div>

@@ -13,8 +13,8 @@ function VmvStatus() {
         >
             {/* <div className="absolute inset-0 dark:bg-black/80"></div> */}
             <div className="flex flex-col items-center justify-center px-4 py-10 text-center md:py-10 lg:py-10">
-                <img src="/img/logo/misa.webp" className="max-w-40 dark:hidden" alt="" />
-                <img src="/img/logo/misa_b.webp" className="hidden max-w-40 dark:block" alt="" />
+                <img src="/img/logo/nisa.webp" className="max-w-40 dark:hidden" alt="" />
+                <img src="/img/logo/nisa_b.webp" className="hidden max-w-40 dark:block" alt="" />
             </div>
             <div className="mx-auto max-w-7xl">
                 <div className="grid grid-cols-12 gap-x-4">
@@ -67,8 +67,8 @@ function VmvStatus() {
                 viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
             >
-                <img src="/img/logo/misa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
-                <img src="/img/logo/misa_b.webp" alt="" className="hidden w-60  opacity-40 dark:block" />
+                <img src="/img/logo/nisa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
+                <img src="/img/logo/nisa_b.webp" alt="" className="hidden w-60  opacity-40 dark:block" />
             </motion.div>
             <motion.div
                 className="absolute top-1/8 right-[40px] -z-10 -translate-y-1/8 hidden md:block"
@@ -78,8 +78,8 @@ function VmvStatus() {
                 viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
             >
-                <img src="/img/logo/misa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
-                <img src="/img/logo/misa_b.webp" alt="" className="hidden w-60  opacity-40 dark:block" />
+                <img src="/img/logo/nisa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
+                <img src="/img/logo/nisa_b.webp" alt="" className="hidden w-60  opacity-40 dark:block" />
             </motion.div>
             <motion.div
                 className="absolute top-8/8 left-[40px] -z-10 -translate-y-8/8 hidden md:block"
@@ -89,8 +89,8 @@ function VmvStatus() {
                 viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
             >
-                <img src="/img/logo/misa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
-                <img src="/img/logo/misa_b.webp" alt="" className="hidden w-60  opacity-40 dark:block" />
+                <img src="/img/logo/nisa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
+                <img src="/img/logo/nisa_b.webp" alt="" className="hidden w-60  opacity-40 dark:block" />
             </motion.div>
             <motion.div
                 className="absolute top-8/8 right-[40px] -z-10 -translate-y-8/8 hidden md:block"
@@ -100,8 +100,8 @@ function VmvStatus() {
                 viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
             >
-                <img src="/img/logo/misa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
-                <img src="/img/logo/misa_b.webp" alt="" className="hidden w-60  opacity-40 dark:block" />
+                <img src="/img/logo/nisa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
+                <img src="/img/logo/nisa_b.webp" alt="" className="hidden w-60  opacity-40 dark:block" />
             </motion.div>
         </section>
     );

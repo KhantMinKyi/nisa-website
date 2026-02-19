@@ -41,7 +41,7 @@ const PrivacyPolicy = () => {
                             viewport={{ once: false, amount: 0.4 }}
                             transition={{ duration: 0.5, ease: 'easeInOut' }}
                         >
-                            <img src="/img/logo/misa.webp" className="max-w-40 mb-6" alt="MISA Logo" />
+                            <img src="/img/logo/nisa.webp" className="max-w-40 mb-6" alt="MISA Logo" />
                             <h1 className="font-merriweather mb-4 text-3xl font-bold md:text-5xl">Privacy Policy</h1>
                             <p className="max-w-2xl text-lg md:text-xl text-gray-200">
                                 Transparency and trust are at the core of our educational community.

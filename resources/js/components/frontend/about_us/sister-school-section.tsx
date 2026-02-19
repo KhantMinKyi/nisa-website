@@ -28,7 +28,7 @@ export default function SisterSchoolSection() {
         { id: 1, title: "BFI Education Sevices", icon: <img src="/img/logo/bfi.webp" className="h-40" />, webUrl: 'https://www.bfi.edu.mm/' },
         { id: 2, title: "SKT International School ( City Campus )", icon: <img src="/img/logo/skt_city_campus.webp" className="h-40" />, webUrl: 'https://skt.edu.mm/skt-city-campus' },
         { id: 3, title: "SKT International School ( Riverside Campus )", icon: <img src="/img/logo/skt_riverside_campus.webp" className="h-40" />, webUrl: 'https://skt.edu.mm/skt-riverside-campus' },
-        { id: 4, title: "NAYPYITAW International School of Acumen", icon: <img src="/img/logo/nisa.webp" className="h-40" />, webUrl: 'https://nisa.edu.mm/' },
+        { id: 4, title: "Mandalay International School of Acumen", icon: <img src="/img/logo/misa.webp" className="h-40" />, webUrl: 'https://misa.edu.mm/' },
     ];
 
     return (

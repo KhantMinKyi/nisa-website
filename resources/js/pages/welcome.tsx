@@ -26,7 +26,7 @@ export default function Welcome({
         <>
             <Head>
                 <title>
-                    Welcome to MISA – Mandalay International School of Acumen
+                    Welcome to NISA – Naypyitaw International School of Acumen
                 </title>
 
                 {/* Fonts */}
@@ -39,42 +39,42 @@ export default function Welcome({
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="Welcome to MISA, Mandalay International School of Acumen, providing world-class education with modern facilities and a strategic location in Mandalay. Explore our curriculum, campus, and student programs."
+                    content="Welcome to NISA, Naypyitaw International School of Acumen, providing world-class education with modern facilities and a strategic location in Naypyitaw. Explore our curriculum, campus, and student programs."
                 />
                 <meta
                     name="keywords"
-                    content="MISA, Mandalay International School of Acumen, international school Mandalay, best schools in Mandalay, education Myanmar"
+                    content="NISA, Naypyitaw International School of Acumen, international school Naypyitaw, best schools in Naypyitaw, education Myanmar"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/" />
+                <link rel="canonical" href="https://nisa.edu.mm/" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
                 <meta
                     property="og:title"
-                    content="Welcome to MISA – Mandalay International School of Acumen"
+                    content="Welcome to NISA – Naypyitaw International School of Acumen"
                 />
                 <meta
                     property="og:description"
-                    content="MISA offers world-class education in Mandalay with modern facilities and a strategic location. Explore our curriculum and student programs."
+                    content="NISA offers world-class education in Naypyitaw with modern facilities and a strategic location. Explore our curriculum and student programs."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/" />
+                <meta property="og:url" content="https://nisa.edu.mm/" />
                 <meta
                     property="og:image"
-                    content="https://misa.edu.mm/images/og/landing.jpg"
+                    content="https://nisa.edu.mm/images/og/landing.jpg"
                 />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta
                     name="twitter:title"
-                    content="Welcome to MISA – Mandalay International School of Acumen"
+                    content="Welcome to NISA – Naypyitaw International School of Acumen"
                 />
                 <meta
                     name="twitter:description"
-                    content="Discover MISA in Mandalay, offering a modern campus and world-class education for students."
+                    content="Discover NISA in Naypyitaw, offering a modern campus and world-class education for students."
                 />
             </Head>
 
