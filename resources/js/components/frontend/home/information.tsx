@@ -57,7 +57,7 @@ function Information() {
 
                                     {/* Simple Footer */}
                                     <p className="mt-8 pt-4 border-t border-slate-100 dark:text-white text-slate-500 text-sm italic">
-                                        Nurturing young minds with a globally recognized Cambridge International curriculum.
+                                        With a commitment to excellence, NISA continues to nurture young minds with a globally recognized Cambridge International curriculum in a dynamic and enriching environment.
                                     </p>
                                 </div>
                                 <ul className="col:block mb-8 flex">
