@@ -16,7 +16,7 @@ const TerminatingEnrolment: React.FC = () => {
                 {/* Header */}
                 <div className="text-center mb-10">
                     <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                        Terminating Enrolment
+                        Withdrawal of Enrollment
                     </h2>
                     <div className="w-16 h-1 bg-red-500 mx-auto rounded-full"></div>
                 </div>
@@ -30,11 +30,9 @@ const TerminatingEnrolment: React.FC = () => {
                             <HiOutlineUserAdd className="text-xl" />
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
-                                Re-enrolment Policy
-                            </h3>
+
                             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                                Once a student has terminated his or her enrolment, that student’s place is taken by a new enrolment. If the student wants to return to our schools, <span className="font-semibold text-gray-900 dark:text-white">that student is treated as a new applicant</span> and must go through the new admission process mentioned above.
+                                Once a student withdraws from enrollment, their place will be given to a new student. If they wish to return, they will not be considered a new applicant but must complete the full admission process, except for the placement test.
                             </p>
                         </div>
                     </div>

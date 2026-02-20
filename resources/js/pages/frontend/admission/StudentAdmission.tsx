@@ -10,36 +10,43 @@ const StudentAdmission = () => {
     return (
         <>
             <Head>
-                <title>Student Admission | MISA – Mandalay International School of Acumen</title>
+                <title>Student Admission | NISA</title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="Join the MISA community in Mandalay. Explore our student admission process, enrollment requirements, and application steps for Primary, Secondary, and IGCSE programs."
+                    content="Apply to NISA Naypyitaw and begin your child’s journey in a nurturing, dynamic learning environment that promotes academic excellence, creativity, and personal growth."
                 />
                 <meta
                     name="keywords"
-                    content="MISA admission, school enrollment Mandalay, international school application, student registration, education Mandalay, apply to MISA"
+                    content="NISA admission, Naypyitaw International School admission, school enrollment Naypyitaw, international school application Myanmar, NISA registration process, Cambridge school admission"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/studentadmission" />
+                <link rel="canonical" href="https://nisa.edu.mm/studentadmission" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Student Admission | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="Student Admission | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Start your journey with MISA. Find detailed information on how to apply, admission criteria, and important dates for the upcoming academic year."
+                    content="Discover the admissions process at NISA Naypyitaw. Visit our campus, meet our educators, and experience a supportive environment focused on excellence and growth."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/studentadmission" />
+                <meta property="og:url" content="https://nisa.edu.mm/studentadmission" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Student Admission | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="Student Admission | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="Join the MISA community. Learn about our seamless admission process and secure your child's future in Mandalay's premier international school."
+                    content="Start your child’s educational journey at NISA Naypyitaw. Learn about our admissions process and enrollment steps today."
                 />
             </Head>
             <FrontendLayout>
@@ -70,7 +77,7 @@ const StudentAdmission = () => {
                         </motion.div>
                     </div>
                     <StudentAdmissionBanner />
-                    <ApplicationFormSection />
+                    {/* <ApplicationFormSection /> */}
                 </div>
             </FrontendLayout>
         </>

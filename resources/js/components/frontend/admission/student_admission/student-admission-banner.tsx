@@ -19,9 +19,8 @@ function StudentAdmissionBanner() {
                                 <span className="font-merriweather mb-1 inline-block text-xl font-normal text-brand-core underline">“How to Apply”</span>
                                 <h2 className="font-merriweather mb-5 text-3xl font-bold sm:text-4xl lg:text-6xl dark:text-yellow-400">Student Admission</h2>
                                 <p className="mb-5">
-                                    Choosing a school for our children is one of the most important decisions we as parents make, and while we may have already identified key elements we would want for our children's school, our final decision is often influenced by the 'feel' of our chosen school.
-
-                                    In the first instant, we would recommend that you arrange an appointment to come and visit us and see for yourself what an unrivalled learning experience life at Mandalay International School of Acumen truly is!
+                                    Choosing the right school for your child is an important step in shaping their future. At Nay Pyi Taw International School of Acumen, we are committed to providing a nurturing and dynamic learning environment that fosters academic excellence, creativity, and personal growth.
+                                    Our admissions process is designed to help families understand what makes our school unique. We encourage you to visit our campus, meet our dedicated educators, and experience firsthand the engaging and supportive atmosphere that defines our community. Let us guide you through each step to ensure a smooth and informed enrollment journey for your child.
                                 </p>
                                 <Link href={'/admission-process'} className="rounded-full cursor-pointer bg-brand-core px-8 py-3 text-sm font-bold text-white hover:text-black transition hover:bg-brand">Read Admission Process</Link>
 
