@@ -10,36 +10,36 @@ const Alumni = () => {
     return (
         <>
             <Head>
-                <title>Alumni | MISA – Mandalay International School of Acumen</title>
+                <title>Alumni | NISA – Naypyitaw International School of Acumen</title>
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="Today’s BFI represents an evolving community from SKT, BISA, NISA, and MISA. Connect with alumni, visit campus, read Quest magazine, and find out how to get involved."
+                    content="Today’s BFI represents an evolving community from SKT, BISA, NISA, and NISA. Connect with alumni, visit campus, read Quest magazine, and find out how to get involved."
                 />
                 <meta
                     name="keywords"
-                    content="MISA Alumni, BFI Alumni, SKT, BISA, NISA, Mandalay school alumni, BFI community, volunteer, Quest magazine, alumnicoordinator"
+                    content="NISA Alumni, BFI Alumni, SKT, BISA, NISA, Naypyitaw school alumni, BFI community, volunteer, Quest magazine, alumnicoordinator"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/alumni" />
+                <link rel="canonical" href="https://nisa.edu.mm/alumni" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="Alumni | MISA – Mandalay International School of Acumen" />
+                <meta property="og:title" content="Alumni | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     property="og:description"
-                    content="Celebrating the diverse traditions of SKT, BISA, NISA, and MISA. Join our alumni community, connect with faculty, and celebrate our shared history."
+                    content="Celebrating the diverse traditions of SKT, BISA, NISA, and NISA. Join our alumni community, connect with faculty, and celebrate our shared history."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/alumni" />
+                <meta property="og:url" content="https://nisa.edu.mm/alumni" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Alumni | MISA – Mandalay International School of Acumen" />
+                <meta name="twitter:title" content="Alumni | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     name="twitter:description"
-                    content="Today’s BFI represents an evolving community from SKT, BISA, NISA, and MISA. Connect with alumni and find out how to get involved."
+                    content="Today’s BFI represents an evolving community from SKT, BISA, NISA, and NISA. Connect with alumni and find out how to get involved."
                 />
             </Head>
             <FrontendLayout>

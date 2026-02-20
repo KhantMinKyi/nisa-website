@@ -13,37 +13,43 @@ const News = ({ posts, category_tags }: { posts: Post[], category_tags: Category
     return (
         <>
             <Head>
-                <title> Events & News  | MISA – Mandalay International School of Acumen</title>
+                <title>News & Events | NISA </title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="Stay updated with the latest news, upcoming events, and important announcements from MISA. Explore student achievements, school activities, and our academic calendar."
+                    content="Stay updated with the latest news, events, and announcements from NISA in Naypyitaw. Explore student achievements, school activities, academic highlights, and upcoming programs."
                 />
                 <meta
                     name="keywords"
-                    content="MISA news, MISA events, Mandalay International School of Acumen updates, school announcements, academic calendar Mandalay, student activities, BFI news"
+                    content="NISA news, NISA events, Naypyitaw International School of Acumen, school announcements Naypyitaw, student activities NISA, Cambridge school Naypyitaw, NISA academic calendar"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                {/* Ensure the href matches your actual route slug, e.g., /news-events or /news */}
-                <link rel="canonical" href="https://misa.edu.mm/news-and-events" />
+                <link rel="canonical" href="https://nisa.edu.mm/news-and-events" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="News & Events | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="News & Events | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Keep up with the vibrant life at MISA. Read about recent events, student success stories, and upcoming school activities in Mandalay."
+                    content="Discover the latest events, student success stories, and school activities at NISA in Naypyitaw."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/news-and-events" />
+                <meta property="og:url" content="https://nisa.edu.mm/news-and-events" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="News & Events | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="News & Events | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="Stay updated with the latest news, upcoming events, and important announcements from MISA."
+                    content="Stay updated with NISA’s latest news, events, and important school announcements in Naypyitaw."
                 />
             </Head>
             <FrontendLayout>

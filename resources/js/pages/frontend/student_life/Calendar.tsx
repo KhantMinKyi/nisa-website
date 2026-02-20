@@ -17,36 +17,43 @@ const CalendarPage = ({ images, showLink }: CalendarPageProps) => {
     return (
         <>
             <Head>
-                <title>Academic Calendar | MISA – Mandalay International School of Acumen</title>
+                <title>Academic Calendar | NISA </title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="View the official academic calendar for MISA. Stay informed about term dates, school holidays, examination schedules, and key academic events throughout the year."
+                    content="View the official academic calendar for NISA in Naypyitaw. Stay informed about term dates, school holidays, examination schedules, and key academic events throughout the year."
                 />
                 <meta
                     name="keywords"
-                    content="MISA academic calendar, school term dates Mandalay, MISA school schedule, exam dates, school holidays Myanmar, BFI academic year, MISA events schedule"
+                    content="NISA academic calendar, Naypyitaw school term dates, NISA school schedule, exam dates Naypyitaw, school holidays Myanmar, Cambridge school calendar, NISA events schedule"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/calendar" />
+                <link rel="canonical" href="https://nisa.edu.mm/calendar" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Academic Calendar | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="Academic Calendar | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Plan your year with the MISA academic calendar. Access important dates for school terms, holidays, and upcoming academic milestones."
+                    content="Plan your academic year with NISA’s official calendar. Access important dates for school terms, holidays, exams, and key events in Naypyitaw."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/calendar" />
+                <meta property="og:url" content="https://nisa.edu.mm/calendar" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Academic Calendar | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="Academic Calendar | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="View the official academic calendar for MISA. Stay informed about term dates, school holidays, and examination schedules."
+                    content="Check NISA’s academic calendar for term dates, school holidays, and examination schedules in Naypyitaw."
                 />
             </Head>
             <FrontendLayout>

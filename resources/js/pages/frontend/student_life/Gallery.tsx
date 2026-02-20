@@ -24,36 +24,43 @@ const GalleryPage = ({ images, categories, selectedCategoryId, showLink }: Galle
     return (
         <>
             <Head>
-                <title>Student Life Gallery | MISA – Mandalay International School of Acumen</title>
+                <title>Student Life Gallery | NISA</title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="Explore the vibrant student life at MISA. View photos of academic achievements, cultural events, sports, and daily life in our diverse learning community."
+                    content="Explore the vibrant student life at NISA in Naypyitaw. View photos of academic achievements, cultural events, sports activities, and daily school experiences in our dynamic learning community."
                 />
                 <meta
                     name="keywords"
-                    content="MISA gallery, student life Mandalay, MISA students, school events photos, BFI community gallery, student activities, school sports Mandalay, student arts"
+                    content="NISA gallery, student life Naypyitaw, Naypyitaw International School of Acumen, school events photos Naypyitaw, NISA students, student activities, school sports Naypyitaw, Cambridge school gallery"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/gallery" />
+                <link rel="canonical" href="https://nisa.edu.mm/gallery" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Student Life Gallery | MISA" />
+                <meta
+                    property="og:title"
+                    content="Student Life Gallery | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="A visual journey through the student experience at MISA. From classroom moments to stage performances and community events, see our students in action."
+                    content="Take a visual journey through student life at NISA in Naypyitaw, showcasing classroom learning, performances, sports, and community events."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/gallery" />
+                <meta property="og:url" content="https://nisa.edu.mm/gallery" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Student Life Gallery | MISA" />
+                <meta
+                    name="twitter:title"
+                    content="Student Life Gallery | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="Explore the vibrant student life at MISA. View photos of academic achievements, cultural events, and daily life in our community."
+                    content="Explore student achievements, school events, and daily life at NISA in Naypyitaw."
                 />
             </Head>
             <FrontendLayout>

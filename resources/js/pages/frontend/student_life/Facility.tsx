@@ -24,36 +24,43 @@ const FacilityPage = ({ images, categories, selectedCategoryId, showLink }: Faci
     return (
         <>
             <Head>
-                <title>Our Facilities | MISA – Mandalay International School of Acumen</title>
+                <title>Academic Calendar | NISA </title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="Discover the world-class facilities at MISA. Explore our modern classrooms, science labs, libraries, sports grounds, and dedicated arts spaces designed to enhance student learning."
+                    content="View the official academic calendar for NISA in Naypyitaw. Stay informed about term dates, school holidays, examination schedules, and key academic events throughout the year."
                 />
                 <meta
                     name="keywords"
-                    content="MISA facilities, school campus Mandalay, modern classrooms, science labs, school library, MISA sports grounds, learning environment, international school facilities Myanmar"
+                    content="NISA academic calendar, Naypyitaw school term dates, NISA school schedule, exam dates Naypyitaw, school holidays Myanmar, Cambridge school calendar, NISA events schedule"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/facilities" />
+                <link rel="canonical" href="https://nisa.edu.mm/calendar" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Our Facilities | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="Academic Calendar | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Take a tour of MISA. From advanced technology labs to spacious recreational areas, see how our facilities support a holistic educational experience."
+                    content="Plan your academic year with NISA’s official calendar. Access important dates for school terms, holidays, exams, and key events in Naypyitaw."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/facilities" />
+                <meta property="og:url" content="https://nisa.edu.mm/calendar" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Our Facilities | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="Academic Calendar | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="Discover the world-class facilities at MISA, including modern classrooms, labs, and sports grounds designed for student success."
+                    content="Check NISA’s academic calendar for term dates, school holidays, and examination schedules in Naypyitaw."
                 />
             </Head>
             <FrontendLayout>

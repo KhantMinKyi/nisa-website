@@ -31,15 +31,19 @@ function AlumniBanner() {
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >
                             <div className="orico-about-text">
-                                <span className="font-merriweather mb-1 inline-block text-xl font-normal text-brand-core underline">“MISA”</span>
+                                <span className="font-merriweather mb-1 inline-block text-xl font-normal text-brand-core underline">“NISA”</span>
                                 <h2 className="font-merriweather mb-5 text-3xl font-bold sm:text-4xl lg:text-6xl dark:text-yellow-400">Alumni </h2>
                                 <p className="mb-5">
-                                    Today’s BFI represents an evolving community bred from four distinct institutions – SKT, BISA, NISA, and MISA. These schools, each with rich histories and cultures of their own, have evolved into a cohesive community that embraces the diverse traditions and values of its founding institutions. There is no better representation of the important history that makes up the fabric of today’s BFI than our alumni community. As you value the memories and mission of your own alma mater, take the time to visit our campus, read Quest magazine, and connect with your favorite faculty members who are still at BFI – you’ll see these values reflected and celebrated in our current culture.
+                                    Today’s NISA is a vibrant and ever-growing community built on the foundation of excellence, shaped by our past and strengthened by our shared values. Our alumni represent the legacy of NISA—individuals who have carried forward the spirit of learning, leadership, and community into the world beyond our school.
 
-                                    Please join us at an event, consider volunteering, and contact our Development Office to learn more about the many ways you can get involved! For more information please contact the Development Office at {' '}
+                                    As a valued member of our alumni network, we invite you to reconnect with your alma mater. Visit our campus, engage with former teachers, and witness how the traditions and values that shaped your journey continue to thrive in today’s students.
+
+                                    We encourage you to stay involved—attend alumni events, volunteer, or mentor the next generation of NISA graduates. Your connection to NISA lasts a lifetime, and we look forward to celebrating your achievements as part of our extended family.
+
+                                    For more information on how to stay connected, please keep an eye on our website and social media channels!
                                 </p>
                                 <ul className="col:block mb-8 flex">
-                                    <li className="relative inline-block py-1 pl-6 text-base font-semibold text-brand-core">
+                                    <li className="relative inline-block py-1 pl-6 text-base text-brand-core">
                                         <i className="absolute top-2 left-0 ">
                                             <MailIcon className="h-4 " />
                                         </i>
