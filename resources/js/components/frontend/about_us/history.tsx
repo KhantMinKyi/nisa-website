@@ -16,30 +16,71 @@ function HistoryBanner() {
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >
                             <div className="orico-about-text">
-                                <span className="font-merriweather mb-1 inline-block text-xl font-normal text-brand-core underline">“MISA”</span>
+                                <span className="font-merriweather mb-1 inline-block text-xl font-normal text-brand-core underline">“NISA”</span>
                                 <h2 className="font-merriweather mb-5 text-3xl font-bold sm:text-4xl lg:text-6xl dark:text-yellow-400">School History </h2>
-                                <p className="mb-5">
-                                    MISA Campus was purpose-built in 2010 and is located on 58th Street (Between 27th & 28th Street). This new campus provides a spacious, comfortable, and well-designed space for learning, with state-of-the-art facilities. Mandalay International School of Acumen is happy to welcome you. We are located at a strategic point connecting Chan Aye Thar Zan township and the rest of the city.
-                                    {' '}
-                                </p>
+                                <div className="col-span-6 flex flex-col justify-center p-4">
+                                    {/* Header Intro */}
+                                    <h2 className="text-2xl font-bold dark:text-white text-slate-900 mb-4 leading-tight">
+                                        World-Class International Education
+                                    </h2>
+
+                                    <p className="dark:text-white text-slate-600 mb-6 leading-relaxed text-justify sm:text-left">
+                                        Nay Pyi Taw International School of Acumen (NISA) is proud to provide a world-class international education from nursery to IGCSE level in Nay Pyi Taw.
+                                    </p>
+
+                                    {/* Simple List Design */}
+                                    <ul className="space-y-6">
+                                        {/* Purpose-Built Campus */}
+                                        <li className="relative pl-6">
+                                            <span className="absolute left-0 top-1.5 h-3 w-3 rounded-full bg-secondary-brand dark:bg-brand-core"></span>
+                                            <h4 className="font-bold dark:text-white text-slate-800 uppercase tracking-wide text-sm mb-1">
+                                                Purpose-Built Campus
+                                            </h4>
+                                            <p className="dark:text-white text-slate-600 text-sm leading-relaxed">
+                                                Established in 2014, NISA’s main campus is located near Sin Ma Living Mall in Ottara Thiri Myo Thit, offering a spacious, comfortable, and well-designed learning environment.
+                                            </p>
+                                            <p className="dark:text-white text-slate-600 text-sm leading-relaxed">
+                                                The campus is equipped with state-of-the-art facilities and cutting-edge resources to support academic excellence.
+                                            </p>
+                                        </li>
+
+                                        {/* Two Campuses */}
+                                        <li className="relative pl-6">
+                                            <span className="absolute left-0 top-1.5 h-3 w-3 rounded-full bg-secondary-brand dark:bg-brand-core"></span>
+                                            <h4 className="font-bold dark:text-white text-slate-800 uppercase tracking-wide text-sm mb-1">
+                                                Three Dedicated Campuses
+                                            </h4>
+                                            <div className="space-y-2 dark:text-white text-slate-600 text-sm">
+                                                <p>• <strong className="dark:text-white text-slate-700">Main Campus:</strong>in Ottara Thiri serves Year 2 to Year 11 students.</p>
+                                                <p>• <strong className="dark:text-white text-slate-700">Preschool Campus:</strong>opened in the 2022-23 academic year, provides the same outstanding facilities for KG learners, ensuring a strong foundation for early education.</p>
+                                                <p>• <strong className="dark:text-white text-slate-700">KG Campus:</strong>For the 2025 – 2026 academic year, NISA will open an additional KG Campus in Pyinmana, expanding access to world-class early years education</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    {/* Simple Footer */}
+                                    <p className="mt-8 pt-4 border-t border-slate-100 dark:text-white text-slate-500 text-sm italic">
+                                        With a commitment to excellence, NISA continues to nurture young minds with a globally recognized Cambridge International curriculum in a dynamic and enriching environment.
+                                    </p>
+                                </div>
                                 <ul className="col:block mb-8 flex">
                                     <li className="relative inline-block py-1 pl-6 text-base font-semibold text-brand-core">
                                         <i className="absolute top-2 left-0">
                                             <MapPinIcon className="h-4" />
                                         </i>
-                                        <p>High School</p>
-                                    </li>
-                                    <li className="relative inline-block py-1 pl-6 text-base font-semibold text-brand-core">
-                                        <i className="absolute top-2 left-0">
-                                            <MapPinIcon className="h-4" />
-                                        </i>
-                                        <p>Primary</p>
+                                        <p>Main Campus</p>
                                     </li>
                                     <li className="relative inline-block py-1 pl-6 text-base font-semibold text-brand-core">
                                         <i className="absolute top-2 left-0">
                                             <MapPinIcon className="h-4" />
                                         </i>
                                         <p>Preschool</p>
+                                    </li>
+                                    <li className="relative inline-block py-1 pl-6 text-base font-semibold text-brand-core">
+                                        <i className="absolute top-2 left-0">
+                                            <MapPinIcon className="h-4" />
+                                        </i>
+                                        <p>KG Pyinmana</p>
                                     </li>
                                 </ul>
                             </div>

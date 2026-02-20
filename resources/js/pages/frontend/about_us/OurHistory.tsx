@@ -9,35 +9,43 @@ const OurHistory = () => {
     return (
         <>
             <Head>
-                <title>Our History | MISA – Mandalay International School of Acumen</title>
+                <title>NISA History | Nay Pyi Taw International School of Acumen</title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="MISA was purpose-built in 2010 and is located on 58th Street, between 27th and 28th Streets, in Mandalay. The campus offers a spacious, comfortable learning environment with modern facilities and easy city access."
+                    content="Nay Pyi Taw International School of Acumen (NISA) provides world-class international education from Nursery to IGCSE in Nay Pyi Taw. Established in 2014, NISA offers modern campuses in Ottara Thiri and Pyinmana with a globally recognized Cambridge International curriculum."
                 />
                 <meta
                     name="keywords"
-                    content="MISA history, Mandalay International School of Acumen, school Mandalay, education Mandalay, MISA campus 2010"
+                    content="NISA Nay Pyi Taw, Nay Pyi Taw International School of Acumen, Cambridge International School Myanmar, IGCSE Nay Pyi Taw, Ottara Thiri school, Pyinmana KG campus, international school Myanmar"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/our-history" />
+                <link rel="canonical" href="https://nisa.edu.mm/our-history" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="Our History | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="About NISA | Nay Pyi Taw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Learn about the history of MISA in Mandalay, built in 2010 with modern facilities and a strategic city location."
+                    content="Discover NISA, a leading international school in Nay Pyi Taw offering Nursery to IGCSE education. Established in 2014, with modern campuses in Ottara Thiri and Pyinmana delivering the Cambridge International curriculum."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/our-history" />
+                <meta property="og:url" content="https://nisa.edu.mm/our-history" />
+
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Our History | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="About NISA | Nay Pyi Taw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="Discover the history of MISA in Mandalay, purpose-built in 2010 to provide a modern, spacious learning environment."
+                    content="NISA provides world-class Nursery to IGCSE education in Nay Pyi Taw with modern campuses and Cambridge International curriculum."
                 />
             </Head>
             <FrontendLayout>

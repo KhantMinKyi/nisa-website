@@ -46,11 +46,12 @@ function Information() {
                                         <li className="relative pl-6">
                                             <span className="absolute left-0 top-1.5 h-3 w-3 rounded-full bg-secondary-brand dark:bg-brand-core"></span>
                                             <h4 className="font-bold dark:text-white text-slate-800 uppercase tracking-wide text-sm mb-1">
-                                                Two Dedicated Campuses
+                                                Three Dedicated Campuses
                                             </h4>
                                             <div className="space-y-2 dark:text-white text-slate-600 text-sm">
                                                 <p>• <strong className="dark:text-white text-slate-700">Main Campus:</strong> Serving Year 2 to Year 11.</p>
                                                 <p>• <strong className="dark:text-white text-slate-700">Preschool Campus:</strong> Opened 2022-23 for KG learners.</p>
+                                                <p>• <strong className="dark:text-white text-slate-700">KG Campus in Pyinmana:</strong> For the 2025 – 2026 academic year, expanding access to world-class early years education</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -65,19 +66,19 @@ function Information() {
                                         <i className="absolute top-2 left-0">
                                             <MapPinIcon className="h-4" />
                                         </i>
-                                        <p>High School</p>
-                                    </li>
-                                    <li className="relative inline-block py-1 pl-6 text-base font-semibold text-brand-core">
-                                        <i className="absolute top-2 left-0">
-                                            <MapPinIcon className="h-4" />
-                                        </i>
-                                        <p>Primary</p>
+                                        <p>Main Campus</p>
                                     </li>
                                     <li className="relative inline-block py-1 pl-6 text-base font-semibold text-brand-core">
                                         <i className="absolute top-2 left-0">
                                             <MapPinIcon className="h-4" />
                                         </i>
                                         <p>Preschool</p>
+                                    </li>
+                                    <li className="relative inline-block py-1 pl-6 text-base font-semibold text-brand-core">
+                                        <i className="absolute top-2 left-0">
+                                            <MapPinIcon className="h-4" />
+                                        </i>
+                                        <p>KG (Pyinmana)</p>
                                     </li>
                                 </ul>
                             </div>
