@@ -54,7 +54,7 @@ export default function Welcome({
                 <meta property="og:type" content="website" />
                 <meta
                     property="og:title"
-                    content="Welcome to NISA – Naypyitaw International School of Acumen"
+                    content="NISA - Naypyitaw International School of Acumen"
                 />
                 <meta
                     property="og:description"
@@ -70,7 +70,7 @@ export default function Welcome({
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta
                     name="twitter:title"
-                    content="Welcome to NISA – Naypyitaw International School of Acumen"
+                    content="NISA - Naypyitaw International School of Acumen"
                 />
                 <meta
                     name="twitter:description"

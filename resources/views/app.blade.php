@@ -30,7 +30,7 @@
             background-color: oklch(0.145 0 0);
         }
     </style>
-    <title inertia>{{ config('app.name', 'Laravel') }}</title>
+    <title inertia>{{ config('app.name', 'NISA') }}</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="icon" href="/favicon.ico" sizes="any">

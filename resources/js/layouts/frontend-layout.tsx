@@ -55,16 +55,22 @@ const FrontendLayout = ({ children }: { children: React.ReactNode }) => {
                         </Link>
                     </div>
                     <div className='flex flex-3/8'>
-                        <FiFacebook className='mr-10 text-brand text-xl' />
-                        <FiYoutube className='mr-10 text-brand text-xl' />
-                        <FiInstagram className='mr-10 text-brand text-xl' />
+                        <a href="https://www.facebook.com/naypyitawinternationalscienceacademy" target='_blank'>
+                            <FiFacebook className='mr-10 text-brand text-xl' />
+                        </a>
+                        <a href="https://www.youtube.com/@naypyitawinternationalscie4268" target='_blank'>
+                            <FiYoutube className='mr-10 text-brand text-xl' />
+                        </a>
+                        <a href="https://www.instagram.com/naypyitaw.int.science.academy/" target='_blank'>
+                            <FiInstagram className='mr-10 text-brand text-xl' />
+                        </a>
                         <div className='flex'>
-                            <span className='text-sm'>+959777488802, +95943060027</span>
+                            <span className='text-sm'>+959428460373</span>
                             <FiPhone className='text-brand ms-2 text-xl' />
                         </div>
                     </div>
                     <div className='flex flex-3/8 items-center'>
-                        <p className='text-sm mr-6'>Corner of 53*30th Street, Chan Aye Thar San Tsp, Mandalay</p>
+                        <p className='text-sm mr-6'>No.14 Oattara Thiri Myo Thit , Nay Pyi Taw</p>
                         <div>
                             <AppearanceToggleDropdown />
                         </div>
