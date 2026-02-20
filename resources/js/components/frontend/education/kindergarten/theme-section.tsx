@@ -1,104 +1,309 @@
 import React from 'react'
 
 const ThemeSection = () => {
-    // Grouping the raw data into logical categories for better UI organization
-    const curriculumData = [
+    const developmentAreas = [
+        "Cognitive or intellectual development",
+        "Communication, language and literacy development",
+        "Persona, social and emotional development",
+        "Physical development",
+        "Creative development"
+    ]
+
+    const levelPrograms = [
         {
-            category: "Language & Literacy",
-            subjects: ["English Phonics: Letter & Sound", "English Writing", "English Language & Literacy", "Story & Music"],
-            icon: (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
-            )
+            level: "Nursery (3 to 4 years old)",
+            items: [
+                "Scholastic, Early Childhood Program",
+                "Scholastic Publisher Inc., USA"
+            ]
         },
         {
-            category: "STEM & Discovery",
-            subjects: ["Math", "Science", "Computer", "Blocks"],
-            icon: (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
-            )
+            level: "Pre-KG (4 to 5 years old)",
+            items: [
+                "Saxon Early Learning",
+                "Saxon Publishers Inc., USA",
+                "Macmillan/ McGrow-Hill, Inc. USA (Math)",
+                "Oxford Wonder World (Phonics)",
+                "Oxford University Press, UK"
+            ]
         },
         {
-            category: "Arts & Expression",
-            subjects: ["Music and Movement", "Fine Arts: Drawing & Painting", "Drama", "Story & Music"],
-            icon: (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" /></svg>
-            )
-        },
-        {
-            category: "Physical & Well-being",
-            subjects: ["Large Motor Skills", "Sand and Water", "Gymnastics/Swimming", "Health & Safety"],
-            icon: (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-            )
-        },
-        {
-            category: "Social & World",
-            subjects: ["Social Studies", "Environmental Awareness", "Field Trips"],
-            icon: (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-            )
+            level: "KG (5 to 6 years old)",
+            items: [
+                "DLM Early childhood Express",
+                "SRA / Mcgrow-Hill., Inc. USA",
+                "Jolly Phonics",
+                "Jolly Learning LTD, UK",
+                "Cambridge Primary Mathematics",
+                "Cambridge Primary English",
+                "Cambridge Primary Science"
+            ]
         }
-    ];
+    ]
+
+    const learningCenters = [
+        "Learning centers help children to make choices.",
+        "Focus on particular activities.",
+        "Giving them the freedom to try these activities on their own.",
+        "When children are actively involved in their own learning, they tend to find such hands-on experiences meaningful and relevant in their own lives."
+    ]
+
+    const morningCircle = [
+        "Attendance through song and game.",
+        "Kids learn math",
+        "Calendar",
+        "Talking about date, day, month & year",
+        "Counting dates in ordinal numbers",
+        "Saying “Today is the first of December 2019, Monday”.",
+        "Talking about tomorrow and yesterday",
+        "Saying “Today is Monday",
+        "Yesterday was Sunday”",
+        "Tomorrow will be Tuesday",
+        "Checking weather",
+        "Review about previous lessons or talk about current lessons"
+    ]
+
+    const coSubjects = [
+        {
+            title: "Science",
+            body: "Young children are natural scientists. They are eager to discover all they can about the world in which they live. In kindergarten children participate in simple investigations that help them begin to develop the skills of asking questions, and making informed decisions. Using their own senses and common tools, students make observations and collect information. Through these processes, children about their world. The meaningful experiences increase children’s understanding of the natural world, living things, cycles, change, and patterns."
+        },
+        {
+            title: "Fine Arts",
+            body: "Through art, children learn to express their thoughts, feelings, and ideas in symbolic ways."
+        },
+        {
+            title: "Social Studies",
+            body: "Social studies learn them to share, cooperate, and participate with others."
+        },
+        {
+            title: "Health or Safety",
+            body: "Lessons in health or safety help children make life choices that will enhance their physical well-being."
+        },
+        {
+            title: "Physical Development",
+            body: "Specially designed movement activities help children practice and improve their gross and fine motor skills as well as maintain personal space."
+        },
+        {
+            title: "Personal and Social Development",
+            body: "Interwoven throughout the entire program, these activities enable children to develop a sense of who they are and their own capabilities to establish positive relationships with others."
+        }
+    ]
+
+    const moralReasons = [
+        "Good moral is a foundation of a strong nation.",
+        "At the very young age of a child, it should be instilled the importance of respect towards others.",
+        "The children of today are the leaders of the future. Therefore, they should learn the values that leaders must possess.",
+        "This is the basic education but plays the vital rule in child’s development."
+    ]
 
     return (
-        <section className="py-8 bg-white dark:bg-black">
-            <hr className='my-4 w-1/2 mx-auto border-gray-300 dark:border-gray-700' />
+        <section className="py-10 bg-white dark:bg-black">
+            <hr className="my-4 w-1/2 mx-auto border-gray-300 dark:border-gray-700" />
 
-            {/* Header Section */}
             <div className="text-center mb-10">
-                <h2 className='text-3xl my-4 font-bold text-brand-core'>
+                <h2 className="text-3xl my-4 font-bold text-brand-core">
                     Curriculum Overview
                 </h2>
-                <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-300 px-4">
-                    Our theme-based approach links topics across different subjects to create
-                    an integrated learning experience.
+                <p className="max-w-4xl mx-auto text-gray-600 dark:text-gray-300 px-4">
+                    Our curriculum is a holistic, child-centered program that natures each child by offering carefully selected and carefully sequenced learning experiences. It focuses on major areas of the development of children.
                 </p>
             </div>
 
-            {/* Content Container */}
-            <div className='container mx-auto px-4'>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {curriculumData.map((section, index) => (
-                        <div
-                            key={index}
-                            className="flex flex-col h-full bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-xl shadow-sm hover:shadow-lg hover:border-brand-core transition-all duration-300 p-6"
-                        >
-                            {/* Card Header with Icon */}
-                            <div className="flex items-center gap-4 mb-4">
-                                <div className="p-3 rounded-lg bg-gray-50 dark:bg-neutral-900 text-brand-core">
-                                    {section.icon}
-                                </div>
-                                <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core">
-                                    {section.category}
-                                </h3>
-                            </div>
+            <div className="container mx-auto px-4">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-4">
+                            Development Areas
+                        </h3>
+                        <ul className="space-y-3">
+                            {developmentAreas.map((item, index) => (
+                                <li key={index} className="flex items-start text-gray-700 dark:text-gray-300">
+                                    <span className="mr-3 mt-1.5 w-2 h-2 bg-brand-core rounded-full flex-shrink-0"></span>
+                                    <span>{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                        <p className="mt-5 text-gray-600 dark:text-gray-300">
+                            At the same time, it natures the natural curiosity and sense of self that can serve as the foundation for a lifetime of learning.
+                        </p>
+                    </div>
 
-                            {/* Divider */}
-                            <div className="h-px w-full bg-gray-100 dark:bg-neutral-800 mb-4"></div>
-
-                            {/* List of Subjects */}
-                            <ul className="space-y-3 flex-1">
-                                {section.subjects.map((subject, subIndex) => (
-                                    <li key={subIndex} className="flex items-start text-gray-700 dark:text-gray-300 group">
-                                        <span className="mr-2 mt-1.5 w-1.5 h-1.5 bg-brand-core rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></span>
-                                        <span className="group-hover:text-brand-core transition-colors">
-                                            {subject}
-                                        </span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))}
+                    <div className="bg-gradient-to-br from-brand-core/10 via-white to-white dark:from-brand-core/15 dark:via-neutral-950 dark:to-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                            Lesson Format
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300">
+                            The lesson format is designed to present information in a way that makes it easy for children to learn.
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300 mt-3">
+                            Each lesson contains the most relevant subjects, presented as miniature lessons.
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300 mt-3">
+                            With our curriculum children develop concrete skills through experiences with music and movement, art, storytelling, and teacher directed lessons that, in addition to skills development, emphasize practice and reflection.
+                        </p>
+                    </div>
                 </div>
 
-                {/* Optional Footer/Extra info */}
-                <div className="my-12 p-6 bg-gray-50 dark:bg-neutral-900 rounded-lg border border-gray-100 dark:border-neutral-800 text-center">
-                    <p className="text-sm text-gray-600 dark:text-gray-400">
-                        *Subjects are integrated dynamically through project-based learning activities.
+                <div className="mt-10">
+                    <h3 className="text-2xl font-bold text-gray-900 dark:text-brand-core mb-4 text-center">
+                        Curriculum Levels
+                    </h3>
+                    <p className="text-center text-gray-600 dark:text-gray-300 mb-6">
+                        Below is an overview of the curriculum and subjects offered in Nursery, Pre-Kg and Kg Levels.
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {levelPrograms.map((level, index) => (
+                            <div key={index} className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                                <h4 className="text-lg font-bold text-gray-900 dark:text-brand-core mb-4">
+                                    {level.level}
+                                </h4>
+                                <ul className="space-y-3">
+                                    {level.items.map((item, itemIndex) => (
+                                        <li key={itemIndex} className="flex items-start text-gray-700 dark:text-gray-300">
+                                            <span className="mr-3 mt-1.5 w-2 h-2 bg-brand-core rounded-full flex-shrink-0"></span>
+                                            <span>{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                            Learning Centers
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300 mb-4">
+                            Why use learning centers in the class room?
+                        </p>
+                        <ul className="space-y-3">
+                            {learningCenters.map((item, index) => (
+                                <li key={index} className="flex items-start text-gray-700 dark:text-gray-300">
+                                    <span className="mr-3 mt-1.5 w-2 h-2 bg-brand-core rounded-full flex-shrink-0"></span>
+                                    <span>{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                            Morning Circle
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300 mb-4">
+                            This is a time for togetherness and a positive, engaging way to start each day.
+                        </p>
+                        <ul className="space-y-3">
+                            {morningCircle.map((item, index) => (
+                                <li key={index} className="flex items-start text-gray-700 dark:text-gray-300">
+                                    <span className="mr-3 mt-1.5 w-2 h-2 bg-brand-core rounded-full flex-shrink-0"></span>
+                                    <span>{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                            Music And Movement
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300">
+                            Children learn to sing, play simple instruments, listen, and respond to music. They also begin to create and recreate moods and experiences in order to express their feelings through increasingly coordinated movement.
+                        </p>
+                    </div>
+                    <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                            Outdoor Play
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300">
+                            Learning takes place outdoors as well as indoors. In an outdoor learning area children can develop motor skills, language, social skills, self-confidence, group camaraderie, and can have fun.
+                        </p>
+                    </div>
+                    <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                            Closing Circle
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300">
+                            Reflect/Access questions help children think about possible applications of what they have learnt in the lesson.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="mt-12">
+                    <h3 className="text-2xl font-bold text-gray-900 dark:text-brand-core mb-6 text-center">
+                        Co-Subjects
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {coSubjects.map((item, index) => (
+                            <div key={index} className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                                <h4 className="text-lg font-bold text-gray-900 dark:text-brand-core mb-3">
+                                    {item.title}
+                                </h4>
+                                <p className="text-gray-700 dark:text-gray-300">{item.body}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                            Special Activities
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300">
+                            Technology
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300 mt-2">
+                            Computer activities help children build not only their technology skills, but also early language, math and other skills.
+                        </p>
+                    </div>
+
+                    <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                            Moral
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300 mb-4">
+                            Moral is one of the major aspects in learning that plays a very important rule in child’s development. It caters the significant character building that each learner should know to grow upright with dignity.
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300 mb-3">
+                            Why teaching Moral?
+                        </p>
+                        <ul className="space-y-3">
+                            {moralReasons.map((item, index) => (
+                                <li key={index} className="flex items-start text-gray-700 dark:text-gray-300">
+                                    <span className="mr-3 mt-1.5 w-2 h-2 bg-brand-core rounded-full flex-shrink-0"></span>
+                                    <span>{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    <div className="bg-white dark:bg-neutral-950 border border-gray-200 dark:border-brand-core/30 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                            Culture
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300">
+                            Our Kindergarten follows an international curriculum; however, it is important for Myanmar students to understand their culture to be able to make connections to other cultures. While it helps non-local students to adapt to our culture, and address the challenges that they can face in their daily life.
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300 mt-3">
+                            Culture is offered in Pre-kg and Kg level
+                        </p>
+                    </div>
+                </div>
+
+                <div className="mt-12 bg-gray-50 dark:bg-neutral-900 rounded-2xl border border-gray-100 dark:border-neutral-800 p-6">
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-brand-core mb-3">
+                        Sand and Water
+                    </h3>
+                    <p className="text-gray-700 dark:text-gray-300">
+                        Experiences in the sand and water area have a sensory motor quality, which is a unique attribute that allow children to release tension in a non-threatening environment and help them develop new skills, increasing their confidence. Sand and water experiences will also help children grow in all areas of development.
                     </p>
                 </div>
-                <p>We also encourage children’s creativity and independence by allowing them to direct their own learning via guided play periods. During these periods, children are free to explore their world using classroom toys, sand, water, paint, life-sized blocks and playground equipment. Field trips, performances, and family programs are other key components of our holistic approach designed to educate, stimulate and challenge our students.</p>
-
             </div>
         </section>
     )

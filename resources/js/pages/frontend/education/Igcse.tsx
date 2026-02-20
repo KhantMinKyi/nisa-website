@@ -12,36 +12,43 @@ const Igcse = () => {
     return (
         <>
             <Head>
-                <title>IGCSE | MISA – Mandalay International School of Acumen</title>
+                <title>IGCSE Programme | NISA </title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="MISA offers the Cambridge IGCSE curriculum for Years 10-11 in Mandalay. Our rigorous high school prepares students for international examinations and global university admission."
+                    content="NISA Naypyitaw offers the Cambridge IGCSE programme for Year 10 and 11. Students complete a two-year course with core subjects including English, Mathematics, and Global Perspectives, plus elective choices."
                 />
                 <meta
                     name="keywords"
-                    content="IGCSE Mandalay, Cambridge IGCSE, high school education Myanmar, Year 10-11, international school exams, university preparation, MISA high school"
+                    content="NISA IGCSE, IGCSE Naypyitaw, Cambridge IGCSE Myanmar, Year 10 Year 11 programme, international high school Naypyitaw, IGCSE subjects NISA, university preparation Myanmar"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/igcse" />
+                <link rel="canonical" href="https://nisa.edu.mm/igcse" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="IGCSE | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="IGCSE Programme | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Discover the Cambridge IGCSE at MISA. We provide a comprehensive curriculum for Year 10 and 11 students, fostering academic success and preparation for higher education."
+                    content="Explore the two-year Cambridge IGCSE programme at NISA Naypyitaw. Students study core subjects and select electives based on interests, talents, and future goals."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/igcse" />
+                <meta property="og:url" content="https://nisa.edu.mm/igcse" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="IGCSE | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="IGCSE Programme | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="MISA offers the rigorous Cambridge IGCSE curriculum in Mandalay, preparing Year 10-11 students for international success."
+                    content="Discover NISA Naypyitaw’s Cambridge IGCSE programme for Year 10 and 11 students, preparing them for international examinations and future success."
                 />
             </Head>
             <FrontendLayout>
@@ -74,8 +81,8 @@ const Igcse = () => {
                     <IgcseBanner />
                     {/* <SecondarySchoolBanner /> */}
                     <HighSchoolSubjectTable />
-                    <SubjectDetails />
                     <SubjectSelectionTable />
+                    <SubjectDetails />
 
                 </div>
             </FrontendLayout>

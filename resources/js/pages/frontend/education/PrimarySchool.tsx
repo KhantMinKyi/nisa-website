@@ -1,16 +1,7 @@
-import InfoSection from '@/components/frontend/home/info-section'
-import Information from '@/components/frontend/home/information'
+
 import FrontendLayout from '@/layouts/frontend-layout'
 import { Head } from '@inertiajs/react'
-import React from 'react'
 import * as motion from 'motion/react-client';
-import HistoryBanner from '@/components/frontend/about_us/history'
-import SchoolProfileBanner from '@/components/frontend/about_us/school-profil-banner'
-import Grading from '@/components/frontend/about_us/grading'
-import Result from '@/components/frontend/about_us/result'
-import UniversityAndColleges from '@/components/frontend/about_us/university-and-colleges'
-import KgBanner from '@/components/frontend/education/kindergarten/kg-banner'
-import ThemeSection from '@/components/frontend/education/kindergarten/theme-section'
 import PrimarySchoolBanner from '@/components/frontend/education/primary/primary-school-banner'
 import PrimarySubjectsTable from '@/components/frontend/education/primary/primary-subject-table'
 import SubjectDetails from '@/components/frontend/education/primary/subject-details'
@@ -18,36 +9,43 @@ const PrimarySchool = () => {
     return (
         <>
             <Head>
-                <title>Primary School | MISA – Mandalay International School of Acumen</title>
+                <title>Primary School | NISA </title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="MISA Primary School offers a robust academic program in Mandalay, fostering critical thinking and a love for learning. Our curriculum builds a strong foundation in core subjects, personal growth, and global awareness."
+                    content="NISA Naypyitaw Primary School Curriculum is designed for holistic student development, providing individualized education that builds confidence, self-esteem, and strong academic foundations."
                 />
                 <meta
                     name="keywords"
-                    content="Primary School Mandalay, elementary education, international primary school, MISA primary, student development, academic excellence, primary admissions Mandalay"
+                    content="NISA Primary School, primary school Naypyitaw, international primary curriculum Myanmar, holistic education Naypyitaw, individualized learning, Cambridge primary school, NISA admissions"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/primary-school-programs" />
+                <link rel="canonical" href="https://nisa.edu.mm/primary-school-programs" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Primary School | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="Primary School | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Discover MISA Primary School in Mandalay. We provide a comprehensive educational experience that prepares students for future academic success through a balanced and engaging curriculum."
+                    content="Discover NISA’s Primary School in Naypyitaw, where holistic development, individualized learning, and academic excellence build confident and capable students."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/primary-school-programs" />
+                <meta property="og:url" content="https://nisa.edu.mm/primary-school-programs" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Primary School | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="Primary School | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="MISA Primary School offers a robust academic program in Mandalay, fostering critical thinking and a love for learning."
+                    content="Explore NISA Naypyitaw Primary School curriculum focused on holistic growth, confidence building, and academic challenge."
                 />
             </Head>
             <FrontendLayout>

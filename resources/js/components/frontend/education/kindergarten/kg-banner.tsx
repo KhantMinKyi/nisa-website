@@ -16,10 +16,12 @@ function KgBanner() {
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >
                             <div className="orico-about-text">
-                                <span className="font-merriweather mb-1 inline-block text-xl font-normal text-brand-core underline">“MISA”</span>
+                                <span className="font-merriweather mb-1 inline-block text-xl font-normal text-brand-core underline">“NISA”</span>
                                 <h2 className="font-merriweather mb-5 text-3xl font-bold sm:text-4xl lg:text-6xl dark:text-yellow-400">Kindergarten Programs</h2>
                                 <p className="mb-5">
-                                    Our International curriculum addresses social-emotional development via engaging activities and positive reinforcement and by actively involving parents in our lessons and extra-curricular programs. We follow an age-appropriate curriculum based on the latest research on early childhood learning. Children are free to explore their world using classroom toys, sand, water, paint, life-sized blocks and out playground equipment.
+                                    Our preschool program is an international program which aims to provide a meaningful and quality international education to all students. The school is driven by its mission to develop student skills, including intellectual, moral, emotional, social and physical skills. With this aim, it has established activities and programs to address all of the above skills.
+
+                                    Curriculum design is determined and shaped mainly based on the school’s mission and vision, philosophy, values and the extent to which the design meets and supports the fulfillment of the school’s mission and vision. Students are offered a variety of subject choices according to interests and needs.
                                 </p>
 
                             </div>

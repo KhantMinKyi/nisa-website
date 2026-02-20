@@ -15,36 +15,43 @@ const Kindergarten = () => {
     return (
         <>
             <Head>
-                <title>Kindergarten | MISA – Mandalay International School of Acumen</title>
+                <title>Preschool Program | NISA </title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="MISA Kindergarten provides a nurturing, play-based learning environment for early years education in Mandalay. Our program focuses on holistic development, creativity, and social skills in a safe, modern facility."
+                    content="NISA Naypyitaw Preschool offers a meaningful, high-quality international early years education focused on intellectual, moral, emotional, social, and physical development in a supportive learning environment."
                 />
                 <meta
                     name="keywords"
-                    content="Kindergarten Mandalay, preschool education, early years foundation, MISA kindergarten, international preschool Mandalay, child development, KG admissions"
+                    content="NISA preschool, preschool Naypyitaw, international preschool Myanmar, early years education Naypyitaw, NISA KG program, Cambridge early years, Naypyitaw kindergarten admission"
                 />
                 <meta name="robots" content="index, follow" />
 
-                {/* Canonical - Ensure this URL matches your actual route */}
-                <link rel="canonical" href="https://misa.edu.mm/kindergarten-programs" />
+                {/* Canonical */}
+                <link rel="canonical" href="https://nisa.edu.mm/kindergarten-programs" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Kindergarten | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="Preschool Program | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Enroll your child in MISA Kindergarten for a world-class early learning experience in Mandalay. Focusing on play, discovery, and fundamental skills."
+                    content="Discover NISA’s international preschool program in Naypyitaw, designed to nurture intellectual, moral, emotional, social, and physical development through a mission-driven curriculum."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/kindergarten-programs" />
+                <meta property="og:url" content="https://nisa.edu.mm/kindergarten-programs" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Kindergarten | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="Preschool Program | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="MISA Kindergarten provides a nurturing, play-based learning environment for early years education in Mandalay."
+                    content="Explore NISA Naypyitaw’s international preschool program focused on holistic development and meaningful early education."
                 />
             </Head>
             <FrontendLayout>

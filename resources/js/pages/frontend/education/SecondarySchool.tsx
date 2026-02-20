@@ -11,36 +11,43 @@ const SecondarySchool = () => {
     return (
         <>
             <Head>
-                <title>Secondary School | MISA – Mandalay International School of Acumen</title>
+                <title>Secondary School | NISA </title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="MISA Secondary School provides a rigorous Cambridge International curriculum (Year 7-9) in Mandalay. Our program fosters academic excellence, critical thinking, and leadership skills to prepare students for the future."
+                    content="NISA Naypyitaw Secondary School follows the Cambridge International Secondary 1 curriculum, strengthening foundations in English, Mathematics, and Science while offering Myanmar Language, History, Geography, ICT, Music, Art, and PE."
                 />
                 <meta
                     name="keywords"
-                    content="Secondary School Mandalay, middle school education, Cambridge Secondary 1, international school Mandalay, MISA secondary, academic rigor, Year 7-9, student leadership"
+                    content="NISA Secondary School, secondary school Naypyitaw, Cambridge Secondary 1 Myanmar, Year 7-9 curriculum, international school Naypyitaw, Cambridge curriculum Myanmar, NISA admissions"
                 />
                 <meta name="robots" content="index, follow" />
 
-                {/* Canonical - Ensure this matches your actual route name */}
-                <link rel="canonical" href="https://misa.edu.mm/secondary-school-programs" />
+                {/* Canonical */}
+                <link rel="canonical" href="https://nisa.edu.mm/secondary-school-programs" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Secondary School | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="Secondary School | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Explore MISA Secondary School in Mandalay. We offer the Cambridge International Secondary 1 curriculum, focusing on advanced subject knowledge and holistic development."
+                    content="Discover NISA’s Cambridge International Secondary 1 programme in Naypyitaw, building strong academic foundations and specialized subject knowledge for a fast-changing world."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/secondary-school-programs" />
+                <meta property="og:url" content="https://nisa.edu.mm/secondary-school-programs" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Secondary School | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="Secondary School | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="MISA Secondary School provides a rigorous Cambridge International curriculum in Mandalay, fostering academic excellence and leadership."
+                    content="Explore NISA Naypyitaw Secondary School offering the Cambridge International Secondary 1 curriculum with a strong academic foundation."
                 />
             </Head>
             <FrontendLayout>

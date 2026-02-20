@@ -1,19 +1,21 @@
 import React from 'react'
 
 function PrimarySubjectsTable() {
-    // Exact data preserved from your list
     const subjects = [
-        { no: 1, name: "English Language A\nEnglish Language B*", periods: 10 },
+        { no: 1, name: "English Language A", periods: 9 },
         { no: 2, name: "Mathematics", periods: 5 },
         { no: 3, name: "Science", periods: 3 },
-        { no: 4, name: "Social Studies", periods: 2 },
-        { no: 5, name: "Myanmar Culture", periods: 3 },
-        { no: 6, name: "Arts", periods: 2 },
-        { no: 7, name: "Computing", periods: 2 },
-        { no: 8, name: "Music", periods: 2 },
-        { no: 9, name: "Physical Education", periods: 2 },
-        { no: 10, name: "Etiquette", periods: 1 },
-    ];
+        { no: 4, name: "Computing", periods: 2 },
+        { no: 5, name: "Geography", periods: 2 },
+        { no: 6, name: "Physical Education", periods: 2 },
+        { no: 7, name: "Music", periods: 2 },
+        { no: 8, name: "Art", periods: 2 },
+        { no: 9, name: "Myanmar Language", periods: 5 },
+        { no: 10, name: "Social Studies (Myanmar)", periods: 1 },
+        { no: 11, name: "Homeroom", periods: 1 }
+    ]
+
+    const totalPeriods = 34
 
     return (
         <section className="py-12 bg-white dark:bg-black">
@@ -58,26 +60,34 @@ function PrimarySubjectsTable() {
                                     </tr>
                                 ))}
                             </tbody>
+                            <tfoot>
+                                <tr className="bg-white dark:bg-neutral-950">
+                                    <td className="px-6 py-4 text-center font-semibold text-gray-700 dark:text-gray-300">
+                                        &nbsp;
+                                    </td>
+                                    <td className="px-6 py-4 font-semibold text-gray-800 dark:text-gray-200">
+                                        Total Number of Periods
+                                    </td>
+                                    <td className="px-6 py-4 text-center font-bold text-brand-core">
+                                        {totalPeriods}
+                                    </td>
+                                </tr>
+                            </tfoot>
                         </table>
                     </div>
 
                     {/* Footer Note inside the card structure */}
                     <div className="bg-gray-100 dark:bg-neutral-900 px-6 py-3 border-t border-gray-200 dark:border-brand-core/20">
                         <p className="text-sm text-gray-500 dark:text-gray-400 italic">
-                            * May not be offered on all campuses
+                            *** May not be offered on all campuses
                         </p>
                     </div>
                 </div>
 
                 {/* Bottom Information Box */}
-                <div className="max-w-3xl mx-auto mt-8 p-6 bg-blue-50 dark:bg-neutral-900/50 border border-blue-100 dark:border-brand-core/30 rounded-lg flex items-start gap-4">
-                    <div className="text-brand-core mt-1 shrink-0">
-                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
+                <div className="max-w-4xl mx-auto mt-8 p-6 bg-blue-50 dark:bg-neutral-900/50 border border-blue-100 dark:border-brand-core/30 rounded-lg">
                     <p className="text-gray-800 dark:text-gray-300">
-                        We offer the Cambridge International Primary curriculum framework in English, mathematics, and science from Year 2 to Year 6.
+                        Internationally recognized Cambridge Primary Curriculum and assessments which includes Cambridge International Primary Checkpoint and yearly progression tests from Year 3 to Year 6.
                     </p>
                 </div>
 

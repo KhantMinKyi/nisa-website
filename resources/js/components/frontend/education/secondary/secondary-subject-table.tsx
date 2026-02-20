@@ -2,18 +2,19 @@ import React from 'react'
 
 function SecondarySubjectsTable() {
     const subjects = [
-        { no: 1, name: "English Language A / \nEnglish Language B Pre Intermediate* / Intermediate*", periods: 10 },
+        { no: 1, name: "English Language A", periods: 8 },
         { no: 2, name: "Mathematics", periods: 6 },
         { no: 3, name: "Science", periods: 4 },
         { no: 4, name: "Geography", periods: 2 },
-        { no: 5, name: "History", periods: 2 },
-        { no: 6, name: "Myanmar Culture", periods: 3 },
-        { no: 7, name: "Art", periods: 2 },
+        { no: 5, name: "History", periods: 1 },
+        { no: 6, name: "Myanmar Culture", periods: 5 },
+        { no: 7, name: "Art", periods: 1 },
         { no: 8, name: "ICT", periods: 2 },
         { no: 9, name: "Music / Elective Language", periods: 2 },
         { no: 10, name: "PE", periods: 2 },
         { no: 11, name: "Etiquette", periods: 1 },
-    ];
+        { no: 12, name: "Myanmar History/Geography", periods: 2 }
+    ]
 
     return (
         <section className="py-16 bg-white dark:bg-black">
@@ -25,9 +26,26 @@ function SecondarySubjectsTable() {
                         Secondary School (Year 7 – 9)
                     </h2>
                     <div className="w-24 h-1 bg-brand-core mx-auto rounded-full mb-6"></div>
-                    <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-300 text-lg">
-                        Our secondary curriculum offers a broad range of subjects designed to challenge students and prepare them for higher education.
+                    <p className="max-w-3xl mx-auto text-gray-600 dark:text-gray-300 text-lg">
+                        Students are assessed through two rigorous testing options: Cambridge International Secondary 1 Checkpoint and yearly progression tests.
                     </p>
+                </div>
+
+                <div className="max-w-4xl mx-auto mb-8 bg-gray-50 dark:bg-neutral-900/60 border border-gray-200 dark:border-brand-core/20 rounded-2xl p-6">
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <li className="flex items-start text-gray-700 dark:text-gray-300">
+                            <span className="mr-3 mt-1.5 w-2 h-2 bg-brand-core rounded-full flex-shrink-0"></span>
+                            <span>A variety of teaching techniques are employed to ensure that instruction is meaningful, effective, and relevant to the diversity of the developmental needs of this age group.</span>
+                        </li>
+                        <li className="flex items-start text-gray-700 dark:text-gray-300">
+                            <span className="mr-3 mt-1.5 w-2 h-2 bg-brand-core rounded-full flex-shrink-0"></span>
+                            <span>Students are involved in more structured activities like projects, presentations, experiments, essays, debates, Olympiad studies, research papers, and inter-school competitions in various fields such as math, science, sports, English language, and art.</span>
+                        </li>
+                        <li className="flex items-start text-gray-700 dark:text-gray-300">
+                            <span className="mr-3 mt-1.5 w-2 h-2 bg-brand-core rounded-full flex-shrink-0"></span>
+                            <span>Students are encouraged to take part in community service activities such as visiting homes for the elderly and/or orphanages.</span>
+                        </li>
+                    </ul>
                 </div>
 
                 {/* Table Card */}
@@ -72,19 +90,6 @@ function SecondarySubjectsTable() {
                                 ))}
                             </tbody>
                         </table>
-                    </div>
-
-                    {/* Footer Note */}
-                    <div className="px-8 py-4 bg-gray-50 dark:bg-neutral-950 border-t border-gray-100 dark:border-neutral-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-                        <span className="text-gray-500 dark:text-gray-400 italic">
-                            * English level is determined by assessment
-                        </span>
-                        <div className="flex items-center gap-2 text-brand-core font-medium">
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                            Cambridge International Secondary 1 Curriculum
-                        </div>
                     </div>
                 </div>
 

@@ -23,7 +23,7 @@ function PrimarySchoolBanner() {
                         Primary School Curriculum
                     </h1>
                     <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                        is engineered for the holistic development of all its students. The school provides the highest standard of individualized education by fostering the love of learning in the children. Teachers aim to enhance each child’s self-confidence and self-esteem while, at the same time, challenging them academically. This is achieved by:
+                        engineered for the holistic development of all its students. The school provides the highest standard of individualized education by fostering the love of learning in the children. Teachers aim to enhance each child’s self-confidence and self-esteem while, at the same time, challenging them academically. This is achieved by:
                     </p>
                 </div>
 
