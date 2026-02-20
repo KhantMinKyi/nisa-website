@@ -214,9 +214,15 @@ export default function TeacherCreate({ categories }: { categories: Category[] }
                                 )}
                             </div>
                             {errors.src && (
-                                <p className="mt-1 text-xs text-red-500">
-                                    {errors.src}
-                                </p>
+                                <p className="mt-1 text-sm text-red-500">{errors.src}</p>
+                            )}
+
+                            {Object.entries(errors).map(([key, value]) =>
+                                key.startsWith("src.") ? (
+                                    <p key={key} className="mt-1 text-sm text-red-500">
+                                        {value}
+                                    </p>
+                                ) : null
                             )}
                         </div>
 
