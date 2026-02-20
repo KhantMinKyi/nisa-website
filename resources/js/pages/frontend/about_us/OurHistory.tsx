@@ -9,7 +9,7 @@ const OurHistory = () => {
     return (
         <>
             <Head>
-                <title>NISA History | Nay Pyi Taw International School of Acumen</title>
+                <title>Our History | NISA</title>
 
                 {/* SEO Meta */}
                 <meta

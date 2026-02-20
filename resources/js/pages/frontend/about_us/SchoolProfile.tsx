@@ -13,35 +13,36 @@ const SchoolProfile = () => {
     return (
         <>
             <Head>
-                <title>School Profile | MISA – Mandalay International School of Acumen</title>
+                <title>School Profile | NISA</title>
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="MISA was purpose-built in 2010 and is located on 58th Street, between 27th and 28th Streets, in Mandalay. The campus offers a spacious, comfortable learning environment with modern facilities and easy city access."
+                    content="Established in 2014, NISA is a premier K-12 Cambridge International School in Nay Pyi Taw, Myanmar, offering world-class education from Year 2 to IGCSE Level."
                 />
                 <meta
                     name="keywords"
-                    content="MISA history, Mandalay International School of Acumen, school Mandalay, education Mandalay, MISA campus 2010"
+                    content="NISA Nay Pyi Taw, International School Myanmar, Cambridge Curriculum Nay Pyi Taw, IGCSE Myanmar, K-12 private school Myanmar"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/our-history" />
+                <link rel="canonical" href="https://nisa.edu.mm/school-profile" />
 
                 {/* Open Graph */}
-                <meta property="og:type" content="article" />
-                <meta property="og:title" content="Our History | MISA – Mandalay International School of Acumen" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="School Profile | Nay Pyi Taw International School of Acumen" />
                 <meta
                     property="og:description"
-                    content="Learn about the history of MISA in Mandalay, built in 2010 with modern facilities and a strategic city location."
+                    content="A registered Cambridge International School in Myanmar. Providing academic excellence from Year 2 through IGCSE graduation."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/our-history" />
+                <meta property="og:url" content="https://nisa.edu.mm/school-profile" />
+
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Our History | MISA – Mandalay International School of Acumen" />
+                <meta name="twitter:title" content="School Profile | NISA Nay Pyi Taw" />
                 <meta
                     name="twitter:description"
-                    content="Discover the history of MISA in Mandalay, purpose-built in 2010 to provide a modern, spacious learning environment."
+                    content="Explore NISA’s journey from its 2014 establishment to its first IGCSE graduating class in 2023."
                 />
             </Head>
             <FrontendLayout>
@@ -73,10 +74,10 @@ const SchoolProfile = () => {
                     </div>
                     <SchoolProfileBanner />
                     <Grading />
-                    <Result />
-                    <UniversityAndColleges />
-                    <div className='h-40'></div>
-                    <InfoSection />
+                    {/* <Result /> */}
+                    {/* <UniversityAndColleges /> */}
+                    {/* <div className='h-40'></div> */}
+                    {/* <InfoSection /> */}
                 </div>
             </FrontendLayout>
         </>

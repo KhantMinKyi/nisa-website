@@ -8,7 +8,7 @@ const OurMissionVision = () => {
     return (
         <>
             <Head>
-                <title>Our Mission & Vision | MISA – Mandalay International School of Acumen</title>
+                <title>Our Mission & Vision | NISA </title>
                 {/* SEO Meta */}
                 <meta
                     name="description"
@@ -16,24 +16,24 @@ const OurMissionVision = () => {
                 />
                 <meta
                     name="keywords"
-                    content="MISA Mission, Vision, Mandalay International School of Acumen, school Mandalay, education Mandalay, MISA campus 2010"
+                    content="NISA Mission, Vision, Naypyitaw International School of Acumen, school Naypyitaw, education Naypyitaw, NISA campus "
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/our-mission-and-vision" />
+                <link rel="canonical" href="https://nisa.edu.mm/our-mission-and-vision" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="Our Misison & Vision | MISA – Mandalay International School of Acumen" />
+                <meta property="og:title" content="Our Misison & Vision | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     property="og:description"
                     content="We nurture students to become lifelong learners, responsible global citizens, and compassionate individuals through a challenging and balanced curriculum in a safe and caring environment."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/our-mission-and-vision" />
+                <meta property="og:url" content="https://nisa.edu.mm/our-mission-and-vision" />
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Our Misison & Vision | MISA – Mandalay International School of Acumen" />
+                <meta name="twitter:title" content="Our Misison & Vision | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     name="twitter:description"
                     content="We nurture students to become lifelong learners, responsible global citizens, and compassionate individuals through a challenging and balanced curriculum in a safe and caring environment."

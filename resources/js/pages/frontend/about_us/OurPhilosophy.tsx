@@ -9,7 +9,7 @@ const OurPhilosophy = () => {
     return (
         <>
             <Head>
-                <title>Our Philosophy | MISA – Mandalay International School of Acumen</title>
+                <title>Our Philosophy | NISA </title>
                 {/* SEO Meta */}
                 <meta
                     name="description"
@@ -17,24 +17,24 @@ const OurPhilosophy = () => {
                 />
                 <meta
                     name="keywords"
-                    content="MISA Philosophy, Mandalay International School of Acumen, school Mandalay, education Mandalay, MISA campus 2010"
+                    content="NISA Philosophy, Naypyitaw International School of Acumen, school Naypyitaw, education Naypyitaw, NISA campus"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/our-philosophy" />
+                <link rel="canonical" href="https://nisa.edu.mm/our-philosophy" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="Our Philosophy | MISA – Mandalay International School of Acumen" />
+                <meta property="og:title" content="Our Philosophy | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     property="og:description"
                     content="Our curriculum is designed to ignite curiosity, encourage critical thinking, and instill a passion for inquiry-based learning. We empower our students to tackle real-world challenges and contribute meaningfully to a rapidly evolving global society."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/our-philosophy" />
+                <meta property="og:url" content="https://nisa.edu.mm/our-philosophy" />
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Our Philosophy | MISA – Mandalay International School of Acumen" />
+                <meta name="twitter:title" content="Our Philosophy | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     name="twitter:description"
                     content="Our curriculum is designed to ignite curiosity, encourage critical thinking, and instill a passion for inquiry-based learning. We empower our students to tackle real-world challenges and contribute meaningfully to a rapidly evolving global society."
@@ -91,26 +91,34 @@ const OurPhilosophy = () => {
                                     <div className="grid md:grid-cols-1 md:gap-10">
 
                                         <div className="mb-5 text-xl">
-                                            <h2 className=" my-4 text-2xl font-bold text-brand">1. Our curriculum is designed to ignite curiosity,</h2>
-                                            encourage critical thinking, and instill a passion for inquiry-based learning. We empower our students to tackle real-world challenges and contribute meaningfully to a rapidly evolving global society.
+                                            <h2 className=" my-4 text-2xl font-bold text-brand">1. Strong Science and Mathematics Education</h2>
+                                            We emphasize a rigorous STEM-focused curriculum that builds analytical and problem-solving skills,
+                                            preparing students for future academic and professional success.
                                             <h2 className=" my-4 text-2xl font-bold text-brand">2. Technology Integration: Shaping Future Innovators</h2>
                                             <p>
-                                                Through a dynamic and evolving technological curriculum, we prepare our students to be adaptive, creative, and ethical users of technology, positioning them as leaders in an increasingly digital world.
+                                                Through a dynamic and evolving technological curriculum, we equip students with the skills to be adaptive, creative,
+                                                and ethical users of technology, positioning them as future leaders in an increasingly digital world.
                                             </p>
                                             <hr className="my-4" />
                                             <h2 className=" my-4 text-2xl font-bold text-brand">3. Physical Education - Sports, Games, and Events: Fostering Wellness and Team Spirit</h2>
                                             <p>
-                                                By fostering inclusivity and providing diverse opportunities for physical activity, we aim to instill a lifelong love for fitness, teamwork, and sportsmanship, nurturing well-rounded individuals who understand the importance of a healthy lifestyle.
+                                                Our inclusive sports and fitness programs promote teamwork, resilience, and a commitment to a healthy lifestyle,
+                                                ensuring students develop a lifelong love for physical activity and sportsmanship.
                                             </p>
                                             <hr className="my-4" />
                                             <h2 className=" my-4 text-2xl font-bold text-brand">4. Internationalism: Cultivating Global Citizens</h2>
                                             <p>
-                                                We strive to create a global learning environment by incorporating international perspectives into our curriculum, promoting cultural exchange programs, and encouraging an appreciation for diversity.
+                                                We create a global learning environment by integrating international perspectives, fostering cultural exchange programs,
+                                                and encouraging students to embrace diversity as part of their educational journey.
                                             </p>
                                             <hr className="my-4" />
                                             <h2 className=" my-4 text-2xl font-bold text-brand">5. Character and Value Education: Shaping Ethical Leaders</h2>
                                             <p>
-                                                Our curriculum places a strong emphasis on the development of moral integrity, empathy, and resilience. We aim to cultivate ethical leaders who not only excel academically but also contribute positively to their communities, demonstrating a commitment to social responsibility.
+                                                Our curriculum places a strong emphasis on moral integrity, empathy, and resilience, cultivating ethical leaders who
+                                                excel academically while making positive contributions to their communities and society at large.
+                                            </p>
+                                            <p className="mt-8 pt-4 border-t border-slate-100 dark:text-white text-slate-500 text-sm italic">
+                                                At NISA, we are committed to nurturing well-rounded individuals who are prepared to lead, innovate, and inspire in a globally connected world.
                                             </p>
                                         </div>
                                     </div>

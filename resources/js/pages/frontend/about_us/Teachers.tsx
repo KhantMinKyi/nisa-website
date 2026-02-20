@@ -22,36 +22,36 @@ const TeachersPage = ({ images, categories, selectedCategoryId, showLink }: Teac
     return (
         <>
             <Head>
-                <title>Our Teachers | MISA – Mandalay International School of Acumen</title>
+                <title>Our Teachers | NISA </title>
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="Meet the dedicated educators at MISA. Explore our teaching team across academic areas and see how our faculty supports student growth and success."
+                    content="Meet the dedicated educators at NISA. Explore our teaching team across academic areas and see how our faculty supports student growth and success."
                 />
                 <meta
                     name="keywords"
-                    content="MISA teachers, Mandalay international school faculty, teaching staff Myanmar, experienced educators, school teachers Mandalay"
+                    content="NISA teachers, Naypyitaw international school faculty, teaching staff Myanmar, experienced educators, school teachers Naypyitaw"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/teachers" />
+                <link rel="canonical" href="https://nisa.edu.mm/teachers" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Our Teachers | MISA – Mandalay International School of Acumen" />
+                <meta property="og:title" content="Our Teachers | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     property="og:description"
-                    content="Get to know the MISA faculty. Our teachers bring expertise, care, and a passion for learning to every classroom."
+                    content="Get to know the NISA faculty. Our teachers bring expertise, care, and a passion for learning to every classroom."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/teachers" />
+                <meta property="og:url" content="https://nisa.edu.mm/teachers" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Our Teachers | MISA – Mandalay International School of Acumen" />
+                <meta name="twitter:title" content="Our Teachers | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     name="twitter:description"
-                    content="Meet the MISA teaching team and explore our faculty by subject areas and programs."
+                    content="Meet the NISA teaching team and explore our faculty by subject areas and programs."
                 />
             </Head>
             <FrontendLayout>

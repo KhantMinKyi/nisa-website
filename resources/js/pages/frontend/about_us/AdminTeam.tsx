@@ -5,39 +5,40 @@ import React from 'react'
 import * as motion from 'motion/react-client';
 import AdminTeamSection from '@/components/frontend/about_us/admin-team-section';
 import HeadOfSchoolSection from '@/components/frontend/about_us/head-of-schools-section';
+import CoordinatorTeamSection from '@/components/frontend/about_us/coordinator-team-section';
 const AdminTeam = () => {
     return (
         <>
             <Head>
-                <title>Admin Team | MISA – Mandalay International School of Acumen</title>
+                <title>Admin Team | NISA </title>
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="Meet the Administration Team of MISA. Our dedicated professionals support school operations, admissions, finance, and daily management to ensure a high-quality learning environment."
+                    content="Meet the Administration Team of NISA. Our dedicated professionals support school operations, admissions, finance, and daily management to ensure a high-quality learning environment."
                 />
                 <meta
                     name="keywords"
-                    content="MISA administration team, school administration Mandalay, international school management, MISA staff"
+                    content="NISA administration team, school administration Naypyitaw, international school management, NISA staff"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/admin-team" />
+                <link rel="canonical" href="https://nisa.edu.mm/admin-team" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="Admin Team | MISA – Mandalay International School of Acumen" />
+                <meta property="og:title" content="Admin Team | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     property="og:description"
-                    content="Learn about the Administration Team at MISA, supporting school operations, student services, and academic excellence."
+                    content="Learn about the Administration Team at NISA, supporting school operations, student services, and academic excellence."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/admin-team" />
+                <meta property="og:url" content="https://nisa.edu.mm/admin-team" />
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Admin Team | MISA – Mandalay International School of Acumen" />
+                <meta name="twitter:title" content="Admin Team | NISA – Naypyitaw International School of Acumen" />
                 <meta
                     name="twitter:description"
-                    content="Discover the Administration Team at MISA, dedicated to supporting students, staff, and school operations."
+                    content="Discover the Administration Team at NISA, dedicated to supporting students, staff, and school operations."
                 />
             </Head>
             <FrontendLayout>
@@ -76,6 +77,11 @@ const AdminTeam = () => {
                     <hr className='w-1/2 mx-auto' />
                     <h2 className='text-center my-4 text-2xl text-brand-dark dark:text-brand font-black'>Seinor Leadership Team</h2>
                     <AdminTeamSection />
+                </div>
+                <div>
+                    <hr className='w-1/2 mx-auto' />
+                    <h2 className='text-center my-4 text-2xl text-brand-dark dark:text-brand font-black'>Coordinators</h2>
+                    <CoordinatorTeamSection />
                 </div>
             </FrontendLayout>
         </>

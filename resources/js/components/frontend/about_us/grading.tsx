@@ -2,13 +2,13 @@ import React from 'react'
 
 const Grading = () => {
     return (
-        <div>
+        <div className='mb-4'>
             <hr className='my-4 w-1/2 mx-auto' />
             <h2 className='text-center text-2xl my-4 font-bold text-brand-core'>Grading</h2>
             <div className=' container mx-auto'>
                 <h4 className=' text-xl my-4 font-bold text-brand-core'>
                     Grade Point Average (GPA) Calculation</h4>
-                <p>GPA is computed using the above quality points. Beginning with Year-10, all subjects, whether passed or failed, are included in the computation. A minimum of 5 IGCSE subjects must be taken to complete the Secondary Education Level. A minimum of 3 A Level subjects must be taken to complete the High School Graduation. We use Unweighted grades when calculating the GPA. Grades are recorded on the transcript and GPA is computed in May.</p>
+                {/* <p>GPA is computed using the above quality points. Beginning with Year-10, all subjects, whether passed or failed, are included in the computation. A minimum of 5 IGCSE subjects must be taken to complete the Secondary Education Level. A minimum of 3 A Level subjects must be taken to complete the High School Graduation. We use Unweighted grades when calculating the GPA. Grades are recorded on the transcript and GPA is computed in May.</p> */}
 
                 <div className="overflow-x-auto mt-10">
                     <h1 className="mb-6 text-2xl font-bold text-gray-900 dark:text-brand-core">
