@@ -7,17 +7,17 @@ const PrivacyPolicy = () => {
     return (
         <>
             <Head>
-                <title>Privacy Policy | MISA – Mandalay International School of Acumen</title>
+                <title>Privacy Policy | NISA – Naypyitaw International School of Acumen</title>
                 <meta
                     name="description"
-                    content="Read the Privacy Policy of MISA. Learn how we collect, store, and protect your personal data, ensuring transparency and security for our students and visitors."
+                    content="Read the Privacy Policy of NISA. Learn how we collect, store, and protect your personal data, ensuring transparency and security for our students and visitors."
                 />
                 <meta
                     name="keywords"
-                    content="MISA privacy policy, data protection, student data privacy, Mandalay International School policy"
+                    content="NISA privacy policy, data protection, student data privacy, Naypyitaw International School policy"
                 />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://misa.edu.mm/privacy-policy" />
+                <link rel="canonical" href="https://nisa.edu.mm/privacy-policy" />
             </Head>
 
             <FrontendLayout>
@@ -41,7 +41,7 @@ const PrivacyPolicy = () => {
                             viewport={{ once: false, amount: 0.4 }}
                             transition={{ duration: 0.5, ease: 'easeInOut' }}
                         >
-                            <img src="/img/logo/nisa.webp" className="max-w-40 mb-6" alt="MISA Logo" />
+                            <img src="/img/logo/nisa.webp" className="max-w-40 mb-6" alt="NISA Logo" />
                             <h1 className="font-merriweather mb-4 text-3xl font-bold md:text-5xl">Privacy Policy</h1>
                             <p className="max-w-2xl text-lg md:text-xl text-gray-200">
                                 Transparency and trust are at the core of our educational community.
@@ -60,7 +60,7 @@ const PrivacyPolicy = () => {
                                 <div className="mb-10">
                                     <h2 className="text-2xl font-bold text-brand-core mb-4">1. Introduction</h2>
                                     <p className="mb-4">
-                                        Mandalay International School of Acumen (MISA) appreciates your trust. We are a Myanmar-based educational institution committed to protecting your privacy. Please read this Privacy Policy to understand how we handle your data when you use our website and services.
+                                        Naypyitaw International School of Acumen (NISA) appreciates your trust. We are a Myanmar-based educational institution committed to protecting your privacy. Please read this Privacy Policy to understand how we handle your data when you use our website and services.
                                     </p>
                                 </div>
 
@@ -190,10 +190,10 @@ const PrivacyPolicy = () => {
                                 <div className="mb-10">
                                     <h2 className="text-2xl font-bold text-brand-core mb-4">10. Third Party Websites</h2>
                                     <p className="mb-4">
-                                        MISA may post links to third party websites on this website. These third party websites are not screened for privacy or security compliance by us, and you release us from any liability for the conduct of these third party websites.
+                                        NISA may post links to third party websites on this website. These third party websites are not screened for privacy or security compliance by us, and you release us from any liability for the conduct of these third party websites.
                                     </p>
                                     <p className="mb-4">
-                                        Please be aware that this Privacy Policy does not create rights enforceable by third parties or require disclosure of any personal information relating to members of the Service or Site. MISA bears no responsibility for the information collected or used by any advertiser or third party website.
+                                        Please be aware that this Privacy Policy does not create rights enforceable by third parties or require disclosure of any personal information relating to members of the Service or Site. NISA bears no responsibility for the information collected or used by any advertiser or third party website.
                                     </p>
                                 </div>
 
@@ -201,7 +201,7 @@ const PrivacyPolicy = () => {
                                 <div className="mb-10">
                                     <h2 className="text-2xl font-bold text-brand-core mb-4">11. Release of Your Data for Legal Purposes</h2>
                                     <p className="mb-4">
-                                        At times it may become necessary or desirable to MISA, for legal purposes, to release your information in response to a request from a government agency or a private litigant. You agree that we may disclose your information to a third party where we believe, in good faith, that it is desirable to do so for the purposes of a civil action, criminal investigation, or other legal matter.
+                                        At times it may become necessary or desirable to NISA, for legal purposes, to release your information in response to a request from a government agency or a private litigant. You agree that we may disclose your information to a third party where we believe, in good faith, that it is desirable to do so for the purposes of a civil action, criminal investigation, or other legal matter.
                                     </p>
                                     <p className="mb-4">
                                         Any passing on of personal data for legal purposes will only be done in compliance with laws of the country you reside in.

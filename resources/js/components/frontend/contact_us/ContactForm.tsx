@@ -37,24 +37,24 @@ interface FormErrors {
 const campuses: Campus[] = [
     {
         id: 'main',
-        name: 'Highschool Campus',
-        address: 'Corner of 53*30th Street,Chan Aye Thar San Tsp, Mandalay',
-        phone: '(09) 777488802, (09) 777488803',
-        mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.845129946921!2d96.11669217559255!3d21.978906179918987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6dad0cf8e4af%3A0x8adc664a1a853bfc!2sMandalay%20International%20School%20of%20Acumen!5e0!3m2!1sen!2smm!4v1770646090391!5m2!1sen!2smm"
+        name: 'Nay Pyi Taw International School of Acumen',
+        address: 'No.14, Oattara Thiri Myo Thit, Nay Pyi Taw.',
+        phone: '(09)428460373, (09)895095080',
+        mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.581892020218!2d96.14634652588884!3d19.815317128346145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c8bf346c9441b1%3A0xae09c71f8a3b739a!2sNay%20Pyi%20Taw%20International%20School%20of%20Acumen!5e0!3m2!1sen!2smm!4v1771576157486!5m2!1sen!2smm"
     },
     {
         id: 'primary',
-        name: 'Primary Campus',
-        address: 'No.118 (A,B,D), Block 514/3, 58th St (Bet 27th & 28th St), Kan Kauk Qtr, Chan Qye Thar Zan Tsp, Mandalay',
-        phone: '(02) 4072753, (09) 43060423, (09) 43060027',
-        mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.9720912829384!2d96.12522857559235!3d21.97403417992243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6d8b63a3554d%3A0x465c324f987d3baa!2sMandalay%20International%20School%20of%20Acumen!5e0!3m2!1sen!2smm!4v1770646179215!5m2!1sen!2smm"
+        name: 'Preschool (Hsaung Thazin Campus)',
+        address: 'No.16, Oattara Thiri Hotel Zone (II), Nay Pyi Taw.',
+        phone: '(09)764987395, (09) 428460373, (09)885750750',
+        mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1275.497502738592!2d96.14842682732339!3d19.81471621860521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c8bf346c9441b1%3A0xae09c71f8a3b739a!2sNay%20Pyi%20Taw%20International%20School%20of%20Acumen!5e0!3m2!1sen!2smm!4v1771576254880!5m2!1sen!2smm"
     },
     {
         id: 'preschool',
-        name: 'Preschool Campus',
-        address: '72nd Street, Between 27th Street and 28th Street Mandalay',
-        phone: '(09) 973558362, (09) 975914489',
-        mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.0!2d96.12!3d21.97!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDU4JzEyLjAiTiA5NsKwMDcnMTIuMCJF!5e0!3m2!1sen!2smm!4v1600000000000!5m2!1sen!2smm"
+        name: 'Preschool (Pyinmana Campus)',
+        address: '581 Paung Laung (2) St, Yazahtarni Rd, Ywar Kauk Ward, Pyinmana 15012',
+        phone: '(09)885750750, (09)764987395, (09) 428460373',
+        mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d469.35147226741407!2d96.20392403559214!3d19.763149949247158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1771579036550!5m2!1sen!2smm"
     }
 ];
 

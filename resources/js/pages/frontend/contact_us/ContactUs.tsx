@@ -12,36 +12,43 @@ const ContactUs = () => {
     return (
         <>
             <Head>
-                <title>Contact Us | MISA – Mandalay International School of Acumen</title>
+                <title>Contact Us | NISA </title>
+
                 {/* SEO Meta */}
                 <meta
                     name="description"
-                    content="Contact MISA for inquiries about admissions, school fees, and other general information. Get in touch with our admissions office for detailed guidance and support."
+                    content="Contact NISA Naypyitaw for admissions inquiries, school fees, and general information. Get in touch with our team for guidance and support regarding enrollment and school programs."
                 />
                 <meta
                     name="keywords"
-                    content="MISA contact, MISA admissions, MISA school fees, MISA general information, MISA inquiries"
+                    content="NISA contact, NISA Naypyitaw, Naypyitaw International School contact, NISA admissions, international school Naypyitaw, NISA school fees inquiry"
                 />
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical */}
-                <link rel="canonical" href="https://misa.edu.mm/contact-us" />
+                <link rel="canonical" href="https://nisa.edu.mm/contact-us" />
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Contact Us | MISA – Mandalay International School of Acumen" />
+                <meta
+                    property="og:title"
+                    content="Contact Us | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     property="og:description"
-                    content="Contact MISA for inquiries about admissions, school fees, and other general information. Get in touch with our admissions office for detailed guidance and support."
+                    content="Reach out to NISA Naypyitaw for admissions, school programs, and general inquiries. Our team is ready to assist you."
                 />
-                <meta property="og:url" content="https://misa.edu.mm/contact-us" />
+                <meta property="og:url" content="https://nisa.edu.mm/contact-us" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Contact Us | MISA – Mandalay International School of Acumen" />
+                <meta
+                    name="twitter:title"
+                    content="Contact Us | NISA – Naypyitaw International School of Acumen"
+                />
                 <meta
                     name="twitter:description"
-                    content="Contact MISA for inquiries about admissions, school fees, and other general information. Get in touch with our admissions office for detailed guidance and support."
+                    content="Contact NISA Naypyitaw for admissions support, school fee details, and general information."
                 />
             </Head>
             <FrontendLayout>
