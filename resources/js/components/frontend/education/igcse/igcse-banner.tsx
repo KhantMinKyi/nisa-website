@@ -8,7 +8,7 @@ function IgcseBanner() {
                         className="col-span-12 lg:col-span-7"
                         initial={{ opacity: 0, x: -40 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false, amount: 0.4 }}
+                        viewport={{ once: true, amount: 0.4 }}
                         transition={{ duration: 0.8, ease: 'easeInOut' }}
                     >
                         <div className="rounded-3xl border border-gray-200 dark:border-brand-core/20 bg-white dark:bg-neutral-950 p-8 shadow-sm">
@@ -28,7 +28,7 @@ function IgcseBanner() {
                         className="col-span-12 lg:col-span-5"
                         initial={{ opacity: 0, x: 40 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false, amount: 0.4 }}
+                        viewport={{ once: true, amount: 0.4 }}
                         transition={{ duration: 0.8, ease: 'easeInOut' }}
                     >
                         <div className="rounded-3xl border border-gray-200 dark:border-brand-core/20 bg-gradient-to-br from-brand-core/10 via-white to-white dark:from-brand-core/20 dark:via-neutral-950 dark:to-neutral-950 p-8 shadow-sm">
@@ -50,7 +50,7 @@ function IgcseBanner() {
                     className="mt-10"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: false, amount: 0.3 }}
+                    viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 0.6, ease: 'easeInOut' }}
                 >
                     <div className="rounded-3xl border border-gray-200 dark:border-brand-core/20 bg-white dark:bg-neutral-950 p-8 shadow-sm">

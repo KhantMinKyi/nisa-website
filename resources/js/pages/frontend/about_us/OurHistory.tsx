@@ -65,7 +65,7 @@ const OurHistory = () => {
                             initial={{ opacity: 0, x: -50 }} // start 50px below
                             whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                             exit={{ opacity: 0, x: -50 }} // fade out and slide down
-                            viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                            viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                             transition={{ duration: 0.5, ease: 'easeInOut' }} // longer duration
                         >
                             <div className="relative z-10 flex flex-col items-center justify-center px-4 py-20 text-center md:py-40 lg:py-52">

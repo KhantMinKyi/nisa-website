@@ -28,7 +28,7 @@ function VmvStatus() {
                                 initial={{ opacity: 0, x: -50 }} // start 50px below
                                 whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                                 exit={{ opacity: 0, x: -50 }} // fade out and slide down
-                                viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                                viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                             >
                                 <p className="mb-5 text-justify text-xl">
@@ -47,7 +47,7 @@ function VmvStatus() {
                                 initial={{ opacity: 0, x: -50 }} // start 50px below
                                 whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                                 exit={{ opacity: 0, x: -50 }} // fade out and slide down
-                                viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                                viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                             >
                                 <p className="mb-5 text-justify text-xl">
@@ -64,7 +64,7 @@ function VmvStatus() {
                 initial={{ opacity: 0, x: 50 }} // start 50px below
                 whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                 exit={{ opacity: 0, x: 50 }} // fade out and slide down
-                viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
             >
                 <img src="/img/logo/nisa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
@@ -75,7 +75,7 @@ function VmvStatus() {
                 initial={{ opacity: 0, x: 50 }} // start 50px below
                 whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                 exit={{ opacity: 0, x: 50 }} // fade out and slide down
-                viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
             >
                 <img src="/img/logo/nisa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
@@ -86,7 +86,7 @@ function VmvStatus() {
                 initial={{ opacity: 0, x: -50 }} // start 50px below
                 whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                 exit={{ opacity: 0, x: -50 }} // fade out and slide down
-                viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
             >
                 <img src="/img/logo/nisa.webp" alt="" className="w-60  opacity-20 dark:hidden" />
@@ -97,7 +97,7 @@ function VmvStatus() {
                 initial={{ opacity: 0, x: -50 }} // start 50px below
                 whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                 exit={{ opacity: 0, x: -50 }} // fade out and slide down
-                viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
             >
                 <img src="/img/logo/nisa.webp" alt="" className="w-60  opacity-20 dark:hidden" />

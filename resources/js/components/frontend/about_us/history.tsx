@@ -12,7 +12,7 @@ function HistoryBanner() {
                             initial={{ opacity: 0, x: -50 }} // start 50px below
                             whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                             exit={{ opacity: 0, x: -50 }} // fade out and slide down
-                            viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                            viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >
                             <div className="orico-about-text">
@@ -91,7 +91,7 @@ function HistoryBanner() {
                         initial={{ opacity: 0, x: 50 }} // start 50px below
                         whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                         exit={{ opacity: 0, x: 50 }} // fade out and slide down
-                        viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                        viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                         transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                     >
                         <div className="mt-14 flex flex-col items-center justify-center gap-4 pl-0 md:pl-12">
@@ -127,7 +127,7 @@ function HistoryBanner() {
                         initial={{ opacity: 0, x: 50 }} // start 50px below
                         whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                         exit={{ opacity: 0, x: 50 }} // fade out and slide down
-                        viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                        viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                         transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                     >
                         <img src="/img/logo/nisa.webp" alt="" className="hidden w-60  opacity-10 sm:block" />
@@ -137,7 +137,7 @@ function HistoryBanner() {
                         initial={{ opacity: 0, x: 50 }} // start 50px below
                         whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                         exit={{ opacity: 0, x: 50 }} // fade out and slide down
-                        viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                        viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                         transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                     >
                         <img src="/img/logo/nisa.webp" alt="" className="hidden w-60  opacity-10 sm:block" />
@@ -147,7 +147,7 @@ function HistoryBanner() {
                         initial={{ opacity: 0, x: -50 }} // start 50px below
                         whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                         exit={{ opacity: 0, x: -50 }} // fade out and slide down
-                        viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                        viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                         transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                     >
                         <img src="/img/logo/nisa.webp" alt="" className="hidden w-60 opacity-10 sm:block" />
@@ -157,7 +157,7 @@ function HistoryBanner() {
                         initial={{ opacity: 0, x: -50 }} // start 50px below
                         whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
                         exit={{ opacity: 0, x: -50 }} // fade out and slide down
-                        viewport={{ once: false, amount: 0.4 }} // trigger when 20% visible
+                        viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                         transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                     >
                         <img src="/img/logo/nisa.webp" alt="" className="hidden w-60  opacity-10 sm:block" />

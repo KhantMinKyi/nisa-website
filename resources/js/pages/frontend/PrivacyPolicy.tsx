@@ -38,7 +38,7 @@ const PrivacyPolicy = () => {
                             initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 1 }}
                             exit={{ opacity: 0, x: -50 }}
-                            viewport={{ once: false, amount: 0.4 }}
+                            viewport={{ once: true, amount: 0.4 }}
                             transition={{ duration: 0.5, ease: 'easeInOut' }}
                         >
                             <img src="/img/logo/nisa.webp" className="max-w-40 mb-6" alt="NISA Logo" />

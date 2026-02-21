@@ -41,7 +41,7 @@ export default function CoordinatorTeamSection() {
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: false, amount: 0.3 }}// Animation triggers when 30% visible
+                    viewport={{ once: true, amount: 0.3 }}// Animation triggers when 30% visible
                 >
                     {cards.map((item) => (
                         <motion.div
