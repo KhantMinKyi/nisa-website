@@ -138,7 +138,7 @@ const ContactSection: React.FC = () => {
                     </h2>
                     <div className="w-24 h-1.5 bg-brand-core mx-auto rounded-full mb-6"></div>
                     <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-300 text-lg">
-                        Visit one of our three campuses in Mandalay or send us a message directly.
+                        Visit one of our three campuses in Naypyitaw or send us a message directly.
                     </p>
                 </div>
 

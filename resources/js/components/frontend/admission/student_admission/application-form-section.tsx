@@ -16,7 +16,7 @@ const ApplicationFormSection = () => {
                 </div>
                 <div className=" flex flex-col gap-4">
                     <p>
-                        We hope your campus visit will confirm that Mandalay International School of Acumen is the best fit for your child. To submit an application, download the form, complete it, and mail it to us.
+                        We hope your campus visit will confirm that Naypyitaw International School of Acumen is the best fit for your child. To submit an application, download the form, complete it, and mail it to us.
                     </p>
                     <div>
                         <a href="/pdf/MISA-Admission-Form.pdf" target='_blank' className="rounded-full cursor-pointer bg-brand-core px-8 py-3 text-sm font-bold text-white hover:text-black transition hover:bg-brand">
@@ -62,7 +62,7 @@ const ApplicationFormSection = () => {
                                     <h2 className="font-merriweather mb-5 text-3xl font-bold sm:text-4xl lg:text-6xl dark:text-yellow-400">International
                                         Admission</h2>
                                     <p className="mb-5">
-                                        Mandalay International School of Acumen enrolls a limited number of international students each year. Candidates must be fluent in English and score well on the TOEFL in order to be considered for admission. International students are placed with a suitable screened host family for the duration of their academic program. Applicants applying from other countries should contact the Admissions Office directly at
+                                        Naypyitaw International School of Acumen enrolls a limited number of international students each year. Candidates must be fluent in English and score well on the TOEFL in order to be considered for admission. International students are placed with a suitable screened host family for the duration of their academic program. Applicants applying from other countries should contact the Admissions Office directly at
                                         <span className='text-brand-core'> contact@bfi-edu.com</span>
                                     </p>
                                     <Link href={'/admission-process'} className="rounded-full cursor-pointer bg-brand-core px-8 py-3 text-sm font-bold text-white hover:text-black transition hover:bg-brand">Read Admission Process</Link>

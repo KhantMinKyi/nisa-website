@@ -26,7 +26,7 @@ export default function FullScreenCarousel() {
         },
         {
             id: 3,
-            image: '/img/banner/banner_6.webp',
+            image: '/img/banner/banner_7.webp',
             title1: "PRIMARY SCHOOL",
             title2: "Primary School Curriculum is engineered for the holistic development",
             title3: "of all its students",
