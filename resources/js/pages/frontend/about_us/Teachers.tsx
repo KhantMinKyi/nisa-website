@@ -65,9 +65,9 @@ const TeachersPage = ({ images, categories, selectedCategoryId, showLink }: Teac
                         <div className="dark:from-dark-950/90 dark:to-dark-950/90 absolute inset-0 bg-gradient-to-r from-gray-900/60 to-gray-950/60" />
                         <motion.div
                             className="orico-about-text-wrap 111"
-                            initial={{ opacity: 0, x: -50 }}
-                            whileInView={{ opacity: 1, x: 1 }}
-                            exit={{ opacity: 0, x: -50 }}
+                            initial={{ opacity: 0, y: -50 }}
+                            whileInView={{ opacity: 1, y: 1 }}
+                            exit={{ opacity: 0, y: -50 }}
                             viewport={{ once: true, amount: 0.4 }}
                             transition={{ duration: 0.5, ease: 'easeInOut' }}
                         >

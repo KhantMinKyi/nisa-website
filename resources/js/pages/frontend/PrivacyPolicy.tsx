@@ -35,9 +35,9 @@ const PrivacyPolicy = () => {
                         {/* Content */}
                         <motion.div
                             className="relative z-10 flex flex-col items-center justify-center px-4 py-20 text-center md:py-40 lg:py-52"
-                            initial={{ opacity: 0, x: -50 }}
-                            whileInView={{ opacity: 1, x: 1 }}
-                            exit={{ opacity: 0, x: -50 }}
+                            initial={{ opacity: 0, y: -50 }}
+                            whileInView={{ opacity: 1, y: 1 }}
+                            exit={{ opacity: 0, y: -50 }}
                             viewport={{ once: true, amount: 0.4 }}
                             transition={{ duration: 0.5, ease: 'easeInOut' }}
                         >

@@ -54,9 +54,9 @@ const OurPhilosophy = () => {
                         {/* Content */}
                         <motion.div
                             className="orico-about-text-wrap 111"
-                            initial={{ opacity: 0, x: -50 }} // start 50px below
-                            whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
-                            exit={{ opacity: 0, x: -50 }} // fade out and slide down
+                            initial={{ opacity: 0, y: -50 }} // start 50px below
+                            whileInView={{ opacity: 1, y: 1 }} // slide up and fade in
+                            exit={{ opacity: 0, y: -50 }} // fade out and slide down
                             viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                             transition={{ duration: 0.5, ease: 'easeInOut' }} // longer duration
                         >
@@ -128,9 +128,9 @@ const OurPhilosophy = () => {
                         </div>
                         <motion.div
                             className="absolute top-1/8 left-[40px] -z-10 -translate-y-1/8 hidden md:block"
-                            initial={{ opacity: 0, x: 50 }} // start 50px below
-                            whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
-                            exit={{ opacity: 0, x: 50 }} // fade out and slide down
+                            initial={{ opacity: 0, y: 50 }} // start 50px below
+                            whileInView={{ opacity: 1, y: 1 }} // slide up and fade in
+                            exit={{ opacity: 0, y: 50 }} // fade out and slide down
                             viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >
@@ -139,9 +139,9 @@ const OurPhilosophy = () => {
                         </motion.div>
                         <motion.div
                             className="absolute top-1/8 right-[40px] -z-10 -translate-y-1/8  hidden md:block"
-                            initial={{ opacity: 0, x: 50 }} // start 50px below
-                            whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
-                            exit={{ opacity: 0, x: 50 }} // fade out and slide down
+                            initial={{ opacity: 0, y: 50 }} // start 50px below
+                            whileInView={{ opacity: 1, y: 1 }} // slide up and fade in
+                            exit={{ opacity: 0, y: 50 }} // fade out and slide down
                             viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >
@@ -150,9 +150,9 @@ const OurPhilosophy = () => {
                         </motion.div>
                         <motion.div
                             className="absolute top-8/8 left-[40px] -z-10 -translate-y-8/8  hidden md:block"
-                            initial={{ opacity: 0, x: -50 }} // start 50px below
-                            whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
-                            exit={{ opacity: 0, x: -50 }} // fade out and slide down
+                            initial={{ opacity: 0, y: -50 }} // start 50px below
+                            whileInView={{ opacity: 1, y: 1 }} // slide up and fade in
+                            exit={{ opacity: 0, y: -50 }} // fade out and slide down
                             viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >
@@ -161,9 +161,9 @@ const OurPhilosophy = () => {
                         </motion.div>
                         <motion.div
                             className="absolute top-8/8 right-[40px] -z-10 -translate-y-8/8  hidden md:block"
-                            initial={{ opacity: 0, x: -50 }} // start 50px below
-                            whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
-                            exit={{ opacity: 0, x: -50 }} // fade out and slide down
+                            initial={{ opacity: 0, y: -50 }} // start 50px below
+                            whileInView={{ opacity: 1, y: 1 }} // slide up and fade in
+                            exit={{ opacity: 0, y: -50 }} // fade out and slide down
                             viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >

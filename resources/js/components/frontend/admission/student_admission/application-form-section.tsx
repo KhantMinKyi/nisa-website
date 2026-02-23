@@ -30,9 +30,9 @@ const ApplicationFormSection = () => {
                     <div className="grid grid-cols-12 items-center gap-x-4">
                         <motion.div
                             className="col-span-12 p-10 md:col-span-6"
-                            initial={{ opacity: 0, x: 50 }} // start 50px below
-                            whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
-                            exit={{ opacity: 0, x: 50 }} // fade out and slide down
+                            initial={{ opacity: 0, y: 50 }} // start 50px below
+                            whileInView={{ opacity: 1, y: 1 }} // slide up and fade in
+                            exit={{ opacity: 0, y: 50 }} // fade out and slide down
                             viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                             transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                         >
@@ -51,9 +51,9 @@ const ApplicationFormSection = () => {
                         <div className="col-span-12 p-10 md:col-span-6">
                             <motion.div
                                 className="orico-about-text-wrap 111"
-                                initial={{ opacity: 0, x: -50 }} // start 50px below
-                                whileInView={{ opacity: 1, x: 1 }} // slide up and fade in
-                                exit={{ opacity: 0, x: -50 }} // fade out and slide down
+                                initial={{ opacity: 0, y: -50 }} // start 50px below
+                                whileInView={{ opacity: 1, y: 1 }} // slide up and fade in
+                                exit={{ opacity: 0, y: -50 }} // fade out and slide down
                                 viewport={{ once: true, amount: 0.4 }} // trigger when 20% visible
                                 transition={{ duration: 1, ease: 'easeInOut' }} // longer duration
                             >

@@ -6,8 +6,8 @@ function IgcseBanner() {
                 <div className="grid grid-cols-12 gap-8 items-start">
                     <motion.div
                         className="col-span-12 lg:col-span-7"
-                        initial={{ opacity: 0, x: -40 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: -40 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, amount: 0.4 }}
                         transition={{ duration: 0.8, ease: 'easeInOut' }}
                     >
@@ -26,8 +26,8 @@ function IgcseBanner() {
 
                     <motion.div
                         className="col-span-12 lg:col-span-5"
-                        initial={{ opacity: 0, x: 40 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 40 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, amount: 0.4 }}
                         transition={{ duration: 0.8, ease: 'easeInOut' }}
                     >
