@@ -128,7 +128,7 @@ const ContactSection: React.FC = () => {
     };
 
     return (
-        <section className="py-20 bg-gray-50 dark:bg-black scroll-mt-20" id="contact">
+        <section className="pt-20 pb-36 md:pb-44 bg-gray-50 dark:bg-black scroll-mt-20" id="contact">
             <div className="container mx-auto px-4 max-w-7xl">
 
                 {/* Header */}

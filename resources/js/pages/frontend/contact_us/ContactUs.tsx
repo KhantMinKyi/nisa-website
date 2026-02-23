@@ -79,6 +79,7 @@ const ContactUs = () => {
                         </motion.div>
                     </div>
                     <ContactForm />
+                    <div className="h-12 md:h-16 bg-gray-50 dark:bg-black"></div>
 
                 </div>
             </FrontendLayout>
