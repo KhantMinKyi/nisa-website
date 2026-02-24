@@ -25,6 +25,7 @@ const MobileSidebarNav: React.FC<MobileSidebarNavProps> = ({ isOpen, onClose, cu
                 currentUrl?.includes('/our-history') ||
                 currentUrl?.includes('/our-mission-and-vision') ||
                 currentUrl?.includes('/our-philosophy') ||
+                currentUrl?.includes('/our-values') ||
                 currentUrl?.includes('/teachers') ||
                 currentUrl?.includes('/sister-schools') ||
                 currentUrl?.includes('/admin-team') ||
@@ -166,6 +167,16 @@ const MobileSidebarNav: React.FC<MobileSidebarNavProps> = ({ isOpen, onClose, cu
                                         onClick={handleLinkClick}
                                     >
                                         Philosophy
+                                    </Link>
+                                </li>
+                                <li className='border-b border-gray-700 hover:text-brand'>
+                                    <Link
+                                        href='/our-values'
+                                        className={`block px-6 py-2 transition-colors ${isActive('/our-values') ? 'text-brand' : ''
+                                            }`}
+                                        onClick={handleLinkClick}
+                                    >
+                                        Our Values
                                     </Link>
                                 </li>
                                 <li className='border-b border-gray-700 hover:text-brand'>

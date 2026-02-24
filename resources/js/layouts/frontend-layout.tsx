@@ -138,6 +138,7 @@ const FrontendLayout = ({ children }: { children: React.ReactNode }) => {
                                     ${isActive('/our-history') ||
                                         isActive('/our-mission-and-vision') ||
                                         isActive('/our-philosophy') ||
+                                        isActive('/our-values') ||
                                         isActive('/teachers') ||
                                         isActive('/sister-schools') ||
                                         isActive('/admin-team') ||
@@ -160,6 +161,9 @@ const FrontendLayout = ({ children }: { children: React.ReactNode }) => {
                                     </li>
                                     <li className={`border-b ${isScrolled ? 'border-gray-300' : 'border-gray-700'} ${isActive('/our-philosophy') ? 'text-brand' : 'hover:text-brand'}`}>
                                         <Link href="/our-philosophy" className='block px-4 py-3'> Philosophy</Link>
+                                    </li>
+                                    <li className={`border-b ${isScrolled ? 'border-gray-300' : 'border-gray-700'} ${isActive('/our-values') ? 'text-brand' : 'hover:text-brand'}`}>
+                                        <Link href="/our-values" className='block px-4 py-3'>Our Values</Link>
                                     </li>
                                     <li className={`border-b ${isScrolled ? 'border-gray-300' : 'border-gray-700'} ${isActive('/teachers') ? 'text-brand' : 'hover:text-brand'}`}>
                                         <Link href="/teachers" className='block px-4 py-3'> Teachers</Link>

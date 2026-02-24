@@ -50,6 +50,10 @@ class GeneralPageRouteController extends Controller
     {
         return Inertia::render('frontend/about_us/OurPhilosophy');
     }
+    public function getValuesPage()
+    {
+        return Inertia::render('frontend/about_us/OurValues');
+    }
     public function getSisterSchoolsPage()
     {
         return Inertia::render('frontend/about_us/SisterSchools');

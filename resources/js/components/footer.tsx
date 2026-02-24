@@ -28,6 +28,15 @@ const Footer = () => {
                             >Home</Link>
                         </li>
                         <li>
+                            <Link href='/our-values'
+                                className={`hover:text-brand transition
+                                        ${isActive('/our-values')
+                                        ? 'text-brand-core '
+                                        : ''}`
+                                }
+                            >Our Values</Link>
+                        </li>
+                        <li>
                             <Link href='/facilities'
                                 className={`hover:text-brand transition
                                         ${isActive('/facilities')
