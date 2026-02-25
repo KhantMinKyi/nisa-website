@@ -63,7 +63,7 @@ const ApplicationFormSection = () => {
                                         Admission</h2>
                                     <p className="mb-5">
                                         Naypyitaw International School of Acumen enrolls a limited number of international students each year. Candidates must be fluent in English and score well on the TOEFL in order to be considered for admission. International students are placed with a suitable screened host family for the duration of their academic program. Applicants applying from other countries should contact the Admissions Office directly at
-                                        <span className='text-brand-core'> admission@nisa.edu.mm</span>
+                                        <span className='text-brand-core'> contact@nisa.edu.mm</span>
                                     </p>
                                     <Link href={'/admission-process'} className="rounded-full cursor-pointer bg-brand-core px-8 py-3 text-sm font-bold text-white hover:text-black transition hover:bg-brand">Read Admission Process</Link>
 

@@ -138,9 +138,9 @@ const AdmissionTabs: React.FC = () => {
 
                         {/* Section 2 - Includes Email */}
                         <div className="bg-gray-50 dark:bg-neutral-800 p-4 rounded-lg border-l-4 border-brand-core">
-                            {data.section2.split('admission@nisa.edu.mm')[0]}
-                            <a href="mailto:admission@nisa.edu.mm" className="text-brand-core font-bold hover:underline">
-                                admission@nisa.edu.mm
+                            {data.section2.split('contact@nisa.edu.mm')[0]}
+                            <a href="mailto:contact@nisa.edu.mm" className="text-brand-core font-bold hover:underline">
+                                contact@nisa.edu.mm
                             </a>
                         </div>
 

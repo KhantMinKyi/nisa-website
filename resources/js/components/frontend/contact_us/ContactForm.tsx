@@ -222,8 +222,8 @@ const ContactSection: React.FC = () => {
                                         </div>
                                         <div>
                                             <p className="text-sm font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Email</p>
-                                            <a href="mailto:admission@nisa.edu.mm" className="text-gray-800 dark:text-gray-200 font-medium hover:text-brand-core">
-                                                admission@nisa.edu.mm
+                                            <a href="mailto:contact@nisa.edu.mm" className="text-gray-800 dark:text-gray-200 font-medium hover:text-brand-core">
+                                                contact@nisa.edu.mm
                                             </a>
                                         </div>
                                     </div>
