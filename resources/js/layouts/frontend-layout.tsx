@@ -169,7 +169,7 @@ const FrontendLayout = ({ children }: { children: React.ReactNode }) => {
                                         <Link href="/teachers" className='block px-4 py-3'> Teachers</Link>
                                     </li>
                                     <li className={`border-b ${isScrolled ? 'border-gray-300' : 'border-gray-700'} ${isActive('/sister-schools') ? 'text-brand' : 'hover:text-brand'}`}>
-                                        <Link href="/sister-schools" className='block px-4 py-3'>Sister Scools</Link>
+                                        <Link href="/sister-schools" className='block px-4 py-3'>Sister Schools</Link>
                                     </li>
                                     <li className={`border-b ${isScrolled ? 'border-gray-300' : 'border-gray-700'} ${isActive('/admin-team') ? 'text-brand' : 'hover:text-brand'}`}>
                                         <Link href="/admin-team" className='block px-4 py-3'>Admin Team</Link>
