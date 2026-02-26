@@ -12,21 +12,21 @@ export default function FullScreenCarousel() {
     const slides = [
         {
             id: 1,
-            image: '/img/banner/banner_9.webp', // Replace with your image paths
+            image: '/img/banner/banner_3.webp', // Replace with your image paths
             title1: "NAYPYITAW INTERNATIONAL SCHOOL OF ACUMEN IS",
             title2: " PROUD TO OFFER CAMBRIDGE IGCSE",
             title3: "Join our Community",
         },
         {
             id: 2,
-            image: '/img/banner/banner_8.webp',
+            image: '/img/banner/banner_9.webp',
             title1: "SECONDARY SCHOOL",
             title2: "Cambridge International Secondary 1 curriculum",
             title3: "Achieve Your Dreams",
         },
         {
             id: 3,
-            image: '/img/banner/banner_7.webp',
+            image: '/img/banner/banner_8.webp',
             title1: "PRIMARY SCHOOL",
             title2: "Primary School Curriculum is engineered for the holistic development",
             title3: "of all its students",

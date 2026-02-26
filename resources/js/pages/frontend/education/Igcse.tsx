@@ -56,7 +56,7 @@ const Igcse = () => {
                     <div
                         className="relative bg-cover bg-center bg-no-repeat text-white"
                         style={{
-                            backgroundImage: "url('/img/banner/banner_4.webp')", // put your image path here
+                            backgroundImage: "url('/img/banner/banner_11.webp')", // put your image path here
                         }}
                     >
                         {/* Overlay */}
